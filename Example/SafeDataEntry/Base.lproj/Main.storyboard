@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tAR-fx-kOX">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +21,57 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vCo-y9-Uo4">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLl-3p-L8O">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="numericEntryKeypad"/>
+                                        <state key="normal" title="Numeric Entry Keypad"/>
+                                        <connections>
+                                            <segue destination="zln-tX-jiW" kind="show" id="py0-aD-Yn6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vCo-y9-Uo4" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="I10-Be-yoR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vCo-y9-Uo4" secondAttribute="trailing" id="Kyu-9m-KTY"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vCo-y9-Uo4" secondAttribute="bottom" id="aM8-kg-dz5"/>
+                            <constraint firstItem="vCo-y9-Uo4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="dE1-h0-1ML"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="zSZ-n3-CnS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5KX-kw-QEB">
+            <objects>
+                <navigationController id="tAR-fx-kOX" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wUZ-Pj-zix">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="xdC-gb-3mq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ek2-RC-J6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="134"/>
+        </scene>
+        <!--NumericEntryKeypad-->
+        <scene sceneID="TrB-4K-5eI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="NumericEntryKeypad" id="zln-tX-jiW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bmc-iy-hUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="-119"/>
         </scene>
     </scenes>
 </document>

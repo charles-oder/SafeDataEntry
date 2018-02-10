@@ -1,11 +1,19 @@
 use_frameworks!
 
-target 'SafeDataEntry_Example' do
-  pod 'SafeDataEntry', :path => '../'
 
-  target 'SafeDataEntry_Tests' do
-    inherit! :search_paths
-
-    
-  end
+def example_pods
+    pod 'SafeDataEntry', :path => '../'
 end
+
+target 'SafeDataEntry_Example' do
+    example_pods
+end
+
+target 'SafeDataEntry_Tests' do
+    example_pods
+end
+
+target 'SafeDataEntry_ExampleUITests' do
+    example_pods
+end
+

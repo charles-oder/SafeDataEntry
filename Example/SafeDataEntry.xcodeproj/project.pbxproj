@@ -12,9 +12,12 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7DA9A9F979FD804AC3E9F54A /* Pods_SafeDataEntry_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A1F5DD1A80E4E74FCA352 /* Pods_SafeDataEntry_Tests.framework */; };
 		9F3F55D46ED2462CF142FCBE /* Pods_SafeDataEntry_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139040B3423C997A37D431A8 /* Pods_SafeDataEntry_Example.framework */; };
+		BC4F115EC2C66D9E755CE32F /* Pods_SafeDataEntry_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4747C6B15420E9AFBF23E1A /* Pods_SafeDataEntry_ExampleUITests.framework */; };
+		E1DF7FD0202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */; };
+		E1DF7FD9202F73AB0088F560 /* NumericEntryKeypad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DF7FD8202F73AB0088F560 /* NumericEntryKeypad.storyboard */; };
+		E1DF7FDB202F73C40088F560 /* NumericEntryKeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FDA202F73C40088F560 /* NumericEntryKeypadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +28,20 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = SafeDataEntry;
 		};
+		E1DF7FD2202F71FB0088F560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = SafeDataEntry_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		139040B3423C997A37D431A8 /* Pods_SafeDataEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150F57CD66EDCC68D56C3340 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2B7E2243E268E96143CF7D7C /* SafeDataEntry.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SafeDataEntry.podspec; path = ../SafeDataEntry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F584160573F7A16ABB36DFD /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_ExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SafeDataEntry_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeDataEntry_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,12 +51,18 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SafeDataEntry_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDataEntry_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		73075FDD84E3AF5F3AB9067F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7774D3C0D9259FB7B2553236 /* Pods-SafeDataEntry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A3A1F5DD1A80E4E74FCA352 /* Pods_SafeDataEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8118D8FFB1A3B014200858 /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8804EDCC855440A9617D05A /* Pods-SafeDataEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAD66DDE69E5301608BE012A /* Pods-SafeDataEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1DF7FCD202F71FB0088F560 /* SafeDataEntry_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDataEntry_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDataEntry_ExampleUITests.swift; sourceTree = "<group>"; };
+		E1DF7FD1202F71FB0088F560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DF7FD8202F73AB0088F560 /* NumericEntryKeypad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NumericEntryKeypad.storyboard; sourceTree = "<group>"; };
+		E1DF7FDA202F73C40088F560 /* NumericEntryKeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericEntryKeypadViewController.swift; sourceTree = "<group>"; };
+		E4747C6B15420E9AFBF23E1A /* Pods_SafeDataEntry_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA1E9327ADE85BE2F6AA650 /* Pods-SafeDataEntry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +83,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1DF7FCA202F71FB0088F560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4F115EC2C66D9E755CE32F /* Pods_SafeDataEntry_ExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +99,7 @@
 			children = (
 				139040B3423C997A37D431A8 /* Pods_SafeDataEntry_Example.framework */,
 				7A3A1F5DD1A80E4E74FCA352 /* Pods_SafeDataEntry_Tests.framework */,
+				E4747C6B15420E9AFBF23E1A /* Pods_SafeDataEntry_ExampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +110,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for SafeDataEntry */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				E1DF7FCE202F71FB0088F560 /* SafeDataEntry_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				DA7323EC237E5AD979B5010A /* Pods */,
 				26A99550990F067E71BDB5E0 /* Frameworks */,
@@ -95,6 +122,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* SafeDataEntry_Example.app */,
 				607FACE51AFB9204008FA782 /* SafeDataEntry_Tests.xctest */,
+				E1DF7FCD202F71FB0088F560 /* SafeDataEntry_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +130,7 @@
 		607FACD21AFB9204008FA782 /* Example for SafeDataEntry */ = {
 			isa = PBXGroup;
 			children = (
+				E1DF7FD7202F73890088F560 /* NumericEntryKeypad */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -124,7 +153,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -155,8 +183,28 @@
 				B8804EDCC855440A9617D05A /* Pods-SafeDataEntry_Example.release.xcconfig */,
 				7774D3C0D9259FB7B2553236 /* Pods-SafeDataEntry_Tests.debug.xcconfig */,
 				EFA1E9327ADE85BE2F6AA650 /* Pods-SafeDataEntry_Tests.release.xcconfig */,
+				8A8118D8FFB1A3B014200858 /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */,
+				3F584160573F7A16ABB36DFD /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1DF7FCE202F71FB0088F560 /* SafeDataEntry_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */,
+				E1DF7FD1202F71FB0088F560 /* Info.plist */,
+			);
+			path = SafeDataEntry_ExampleUITests;
+			sourceTree = "<group>";
+		};
+		E1DF7FD7202F73890088F560 /* NumericEntryKeypad */ = {
+			isa = PBXGroup;
+			children = (
+				E1DF7FD8202F73AB0088F560 /* NumericEntryKeypad.storyboard */,
+				E1DF7FDA202F73C40088F560 /* NumericEntryKeypadViewController.swift */,
+			);
+			name = NumericEntryKeypad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,13 +251,34 @@
 			productReference = 607FACE51AFB9204008FA782 /* SafeDataEntry_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E1DF7FCC202F71FB0088F560 /* SafeDataEntry_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DF7FD6202F71FB0088F560 /* Build configuration list for PBXNativeTarget "SafeDataEntry_ExampleUITests" */;
+			buildPhases = (
+				0C6D657EDFC6D4432E9C54D0 /* [CP] Check Pods Manifest.lock */,
+				E1DF7FC9202F71FB0088F560 /* Sources */,
+				E1DF7FCA202F71FB0088F560 /* Frameworks */,
+				E1DF7FCB202F71FB0088F560 /* Resources */,
+				F04CEC4A613713293BBE1885 /* [CP] Embed Pods Frameworks */,
+				24B89CAA8D5EE498922D3649 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1DF7FD3202F71FB0088F560 /* PBXTargetDependency */,
+			);
+			name = SafeDataEntry_ExampleUITests;
+			productName = SafeDataEntry_ExampleUITests;
+			productReference = E1DF7FCD202F71FB0088F560 /* SafeDataEntry_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -220,6 +289,12 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					E1DF7FCC202F71FB0088F560 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 57H6R24MCX;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -239,6 +314,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* SafeDataEntry_Example */,
 				607FACE41AFB9204008FA782 /* SafeDataEntry_Tests */,
+				E1DF7FCC202F71FB0088F560 /* SafeDataEntry_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +327,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				E1DF7FD9202F73AB0088F560 /* NumericEntryKeypad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +338,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1DF7FCB202F71FB0088F560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C6D657EDFC6D4432E9C54D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SafeDataEntry_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		0CADC8E71CE52A34A0A2E25A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,6 +379,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24B89CAA8D5EE498922D3649 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		25D9E45BAE0D93303B802624 /* [CP] Check Pods Manifest.lock */ = {
@@ -304,7 +421,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SafeDataEntry/SafeDataEntry.framework",
+				"${BUILT_PRODUCTS_DIR}/SafeDataEntry-iOS9.3/SafeDataEntry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -339,9 +456,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SafeDataEntry-iOS9.3/SafeDataEntry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SafeDataEntry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,6 +483,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F04CEC4A613713293BBE1885 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SafeDataEntry-iOS11.2/SafeDataEntry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SafeDataEntry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -370,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1DF7FDB202F73C40088F560 /* NumericEntryKeypadViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -379,7 +518,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DF7FC9202F71FB0088F560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DF7FD0202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +536,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* SafeDataEntry_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		E1DF7FD3202F71FB0088F560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* SafeDataEntry_Example */;
+			targetProxy = E1DF7FD2202F71FB0088F560 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -580,6 +731,56 @@
 			};
 			name = Release;
 		};
+		E1DF7FD4202F71FB0088F560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8118D8FFB1A3B014200858 /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SafeDataEntry_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.oder.SafeDataEntry-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeDataEntry_Example;
+			};
+			name = Debug;
+		};
+		E1DF7FD5202F71FB0088F560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F584160573F7A16ABB36DFD /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57H6R24MCX;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SafeDataEntry_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.oder.SafeDataEntry-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SafeDataEntry_Example;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,6 +807,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DF7FD6202F71FB0088F560 /* Build configuration list for PBXNativeTarget "SafeDataEntry_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DF7FD4202F71FB0088F560 /* Debug */,
+				E1DF7FD5202F71FB0088F560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,148 +7,207 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23DD621B7882649811AC24C9269F2BF5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D08CBD67364BFB60D1D54BC6FCD05 /* ReplaceMe.swift */; };
-		3734A5C316F153D752863233D9E7F1D3 /* Pods-SafeDataEntry_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B00D4F45784A36C399F524123C000AC4 /* Pods-SafeDataEntry_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FA285849A5D91518D1ADA6E6255919C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4409DB5B069B8615FD13DE131DA2F9D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		54764B3022E72C21023C805C9DE081A7 /* SafeDataEntry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD26152C9EFD9FA98685B2C945867B4B /* SafeDataEntry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AA614ECEA008EAF15A7E5BB75CED2B3 /* Pods-SafeDataEntry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A740C5127165D5848F8125AE1CBB70A /* Pods-SafeDataEntry_Example-dummy.m */; };
-		6DE807B5DC9B8A47D8CEDF0C4B03670A /* Pods-SafeDataEntry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F56C746649412B4D427A36535D4C0D /* Pods-SafeDataEntry_Tests-dummy.m */; };
-		6FF68311F3CB715D50FFE7C16A15B06D /* SafeDataEntry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DD4E7E51811E7BCFD8AB6503B76DE /* SafeDataEntry-dummy.m */; };
-		84F36D35600832A3CD13AC14A726DAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C4AB936477D7DAB3D85823B147D3019F /* Pods-SafeDataEntry_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CEF4F1CDE29464CBBA8D5A271722DC /* Pods-SafeDataEntry_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A83B0030823FBBCBB57220FB391C905 /* Pods-SafeDataEntry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C728B2A82D8E4C8FFB2FDF351109A8E7 /* Pods-SafeDataEntry_Example-dummy.m */; };
+		0CFE7F346BA3703873196EB0AA6DD0A3 /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */; };
+		0D349EFBBA09ABE49757C881B1C173D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D8BC7BDF73F696D5E90A6EB14312B05 /* SafeDataEntry-iOS11.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */; };
+		392ADA61AE72DCEFCF472F16B73D7192 /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */; };
+		3F3F561B8CA137DFB28414DED7A7EC61 /* SafeDataEntry-iOS11.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F3FBD40AA8A130F98BC87438E9851F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4E4C51B2494FFBD1A84C9E9D2BD54B97 /* Pods-SafeDataEntry_ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB45396AA77098C69DBA1D1296C906B /* Pods-SafeDataEntry_ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C438FC0C77E4596A9E0E542403A4CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		68562556E20331D38B7AA3009675557F /* Pods-SafeDataEntry_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFAB07C54307C0F8FAFB9887FCE0440 /* Pods-SafeDataEntry_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9065C623A15AFBA2EDBE93A750495C35 /* Pods-SafeDataEntry_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70E5F3EB63BBBD627222EB7EDE0631 /* Pods-SafeDataEntry_ExampleUITests-dummy.m */; };
+		928959A37BB743E2CB3B969A238FD5BC /* Pods-SafeDataEntry_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF7B5A0C3169450BB32CA41AC8016C2 /* Pods-SafeDataEntry_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7973F54F2098CDBE20D63E59A8B8B1 /* SafeDataEntry-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB12623BED6BDE157B6F32EF6D9F98F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A974252303718C7662D12CFA58EBD1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7CFA2DA56A5E36497366A11D56318D2 /* Pods-SafeDataEntry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20708E7843EF4EF84ECED92EEC428EAF /* Pods-SafeDataEntry_Tests-dummy.m */; };
+		E678D036841C0B59A0B6896FD728FCDF /* SafeDataEntry-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7DE8161DD31EAB1BC20BA84A17B1DA6 /* PBXContainerItemProxy */ = {
+		0357E88D1BFC6A360065424AB34FEB15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 71600DD278636F58C000343DD8C46865;
-			remoteInfo = SafeDataEntry;
+			remoteGlobalIDString = 381D877D0D9CD7891EFB7905744B92D5;
+			remoteInfo = "SafeDataEntry-iOS9.3";
+		};
+		088FCB0CF7F0867689479656F46A0D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 381D877D0D9CD7891EFB7905744B92D5;
+			remoteInfo = "SafeDataEntry-iOS9.3";
+		};
+		DCD0F2319744C39FD585093A7D2CBBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D379640393C06520709B59BD640091;
+			remoteInfo = "SafeDataEntry-iOS11.2";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06F13E58884BE7BF99A6B1B7A7DA7E00 /* Pods-SafeDataEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		125C0A9E8825166C883E59440449B02F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		13256892C2A9FCD1C8455F892E693AA2 /* Pods-SafeDataEntry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A740C5127165D5848F8125AE1CBB70A /* Pods-SafeDataEntry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Example-dummy.m"; sourceTree = "<group>"; };
-		1A8DD4E7E51811E7BCFD8AB6503B76DE /* SafeDataEntry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SafeDataEntry-dummy.m"; sourceTree = "<group>"; };
-		29102D54118FD238F901042130CB7E1C /* Pods-SafeDataEntry_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		312798C2A2871DE3394B3A8F981D76D2 /* Pods-SafeDataEntry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4194889C9F39B36BEBB75F91F1B0F715 /* SafeDataEntry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SafeDataEntry.xcconfig; sourceTree = "<group>"; };
-		45D1A5976FC41A38CB630586D2D40E3C /* Pods-SafeDataEntry_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4D6182015F8691F0FE162FC8E85791A3 /* Pods_SafeDataEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Example.framework; path = "Pods-SafeDataEntry_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		529ADF000A7FE3B59701627335D3DE77 /* Pods-SafeDataEntry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Tests.modulemap"; sourceTree = "<group>"; };
-		557F866F6982FE8E83CCA7F43CE58632 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63CFF0B9AC984E230C255BD88C053686 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1786C4CC1E341DB73DEDAAD913180013 /* Pods-SafeDataEntry_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-resources.sh"; sourceTree = "<group>"; };
+		1CFAB07C54307C0F8FAFB9887FCE0440 /* Pods-SafeDataEntry_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E883C3017DD95AB056A22EF677C647D /* SafeDataEntry-iOS11.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SafeDataEntry-iOS11.2.modulemap"; sourceTree = "<group>"; };
+		20708E7843EF4EF84ECED92EEC428EAF /* Pods-SafeDataEntry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Tests-dummy.m"; sourceTree = "<group>"; };
+		2860F3EC460FB02DF673466533E6D1D0 /* Pods-SafeDataEntry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AF7B5A0C3169450BB32CA41AC8016C2 /* Pods-SafeDataEntry_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Example-umbrella.h"; sourceTree = "<group>"; };
+		39EB74FF29D9510A86F7CBEEDBB98F08 /* Pods-SafeDataEntry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Example.modulemap"; sourceTree = "<group>"; };
+		3BD759DDB87048E474D4CB7532F70C37 /* Pods-SafeDataEntry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3DC8197F1BD4348288173A0B7963A07B /* Pods_SafeDataEntry_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_ExampleUITests.framework; path = "Pods-SafeDataEntry_ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4791A346CBE803AE4F7E5543429190B5 /* Pods_SafeDataEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Tests.framework; path = "Pods-SafeDataEntry_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-umbrella.h"; sourceTree = "<group>"; };
+		4A7B989D0F4CFC54AEEBA6694A18A447 /* SafeDataEntry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SafeDataEntry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericEntryKeypad.swift; path = SafeDataEntry/Classes/NumericEntryKeypad.swift; sourceTree = "<group>"; };
+		57D34E8EA539FCC9D778EF01F012951C /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58F632512E0651FE3463C035B03A9B06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B731AE7E06E6F9F9B8D4B22225470F /* Pods-SafeDataEntry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67DE3EB9C86734C04B227FB56B402C88 /* SafeDataEntry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SafeDataEntry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		68A23FEA398F2C763A2BE9A369EBFC4F /* SafeDataEntry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-prefix.pch"; sourceTree = "<group>"; };
-		6985B71D089C9AD7B594422306D7492D /* Pods-SafeDataEntry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Example.modulemap"; sourceTree = "<group>"; };
-		6EA5AE47CFA44F6030DA902118FA5719 /* Pods-SafeDataEntry_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-resources.sh"; sourceTree = "<group>"; };
-		7165BF4A5CA72ACB2AA1589BB562FE8F /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SafeDataEntry.framework; path = SafeDataEntry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F2E14B09B0B56EC3E4671AA696CC3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73CEF4F1CDE29464CBBA8D5A271722DC /* Pods-SafeDataEntry_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7F4BAAAD6DC4B9AC8B2EDEBF2F3E6AC8 /* Pods-SafeDataEntry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		83F56C746649412B4D427A36535D4C0D /* Pods-SafeDataEntry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Tests-dummy.m"; sourceTree = "<group>"; };
+		6A70E5F3EB63BBBD627222EB7EDE0631 /* Pods-SafeDataEntry_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
+		71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SafeDataEntry-iOS9.3-dummy.m"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-dummy.m"; sourceTree = "<group>"; };
+		76137CD4A4A1C1BC8CBC66E1D1D5C379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SafeDataEntry-iOS9.3/Info.plist"; sourceTree = "<group>"; };
+		778CE349A81C782BFCCDE14E8F8F978D /* SafeDataEntry-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "SafeDataEntry-iOS9.3.modulemap"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		790321A431EA6C0F677A838F32A4FD30 /* Pods-SafeDataEntry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B2DC2DBC62086CDC416BDEDB626003B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SafeDataEntry-iOS11.2.xcconfig"; sourceTree = "<group>"; };
+		8D02802C6419D1C97AFE1E880DDDD3FE /* Pods-SafeDataEntry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8D703117EC8D00232A87148F851061ED /* Pods_SafeDataEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Example.framework; path = "Pods-SafeDataEntry_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA3B2F1B268C640EA2502F72283544A /* Pods-SafeDataEntry_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B79CD87F2E19AC9DF2F809D671B4F72 /* SafeDataEntry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SafeDataEntry.modulemap; sourceTree = "<group>"; };
-		A70F0AA5B71B21AA114B5CAABAD08E59 /* Pods-SafeDataEntry_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-resources.sh"; sourceTree = "<group>"; };
-		A8CC86239D670F954A46626F8144D3D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B00D4F45784A36C399F524123C000AC4 /* Pods-SafeDataEntry_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Example-umbrella.h"; sourceTree = "<group>"; };
-		BB4D08CBD67364BFB60D1D54BC6FCD05 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SafeDataEntry/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		BB7F6F713865D5AED8EFF6C5DADB5A48 /* Pods_SafeDataEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Tests.framework; path = "Pods-SafeDataEntry_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C4A5CA0187DC74517827695C8408F2 /* Pods-SafeDataEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F097FC9D06F49AE00B7FA9B3CC94B036 /* Pods-SafeDataEntry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F174F399190F34487DA7A27E8B9F45B2 /* Pods-SafeDataEntry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCCC0A1642F38625A19580FEE8FA9615 /* Pods-SafeDataEntry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD26152C9EFD9FA98685B2C945867B4B /* SafeDataEntry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-umbrella.h"; sourceTree = "<group>"; };
+		941823E87A083B41A2D8AAD27A550D3A /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9B2C3965EDD98E582B9F6B91960F06C3 /* Pods-SafeDataEntry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D1D24FA091581DFFD164C1B941CE7A6 /* SafeDataEntry-iOS11.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-prefix.pch"; sourceTree = "<group>"; };
+		9DC0D8788FB8E7FEDD3BF68BBA0AEBC1 /* Pods-SafeDataEntry_ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9EB45396AA77098C69DBA1D1296C906B /* Pods-SafeDataEntry_ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		9EE617DF28E1F139D77B48992F0E55D4 /* Pods-SafeDataEntry_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-umbrella.h"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
+		A2B25C0948B9469A1EEE0868CA335436 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA7AFC003970B375908EF25D653001BE /* Pods-SafeDataEntry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SafeDataEntry-iOS11.2-dummy.m"; sourceTree = "<group>"; };
+		B63EB5BBF26DE678B977770A1A26BD83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCC484CDB602332C758869180E30D3C3 /* Pods-SafeDataEntry_ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_ExampleUITests-resources.sh"; sourceTree = "<group>"; };
+		BEA4E1ED03EB88FA27E9D094953A3D3C /* Pods-SafeDataEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C728B2A82D8E4C8FFB2FDF351109A8E7 /* Pods-SafeDataEntry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Example-dummy.m"; sourceTree = "<group>"; };
+		C921BC9CF486F2BC5AD3AF6E76ED4D79 /* Pods-SafeDataEntry_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-resources.sh"; sourceTree = "<group>"; };
+		CA64B0BDE9B9496299910C09CBED80FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C77D90C0201213125CE639BA76ADB6 /* Pods-SafeDataEntry_ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		E6E8774284D02F502BE11D45AAC03835 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF6673EC5B6D20C8C1CD3A116BF99C8 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SafeDataEntry.framework; path = "SafeDataEntry-iOS11.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA0F932C4BBF91FA974A2D7A2439339 /* SafeDataEntry-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-prefix.pch"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		EFBDD1B0A45D4CBB9271C95A399F3A30 /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFEEAC042511D859EA0F8B3206193788 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SafeDataEntry.framework; path = "SafeDataEntry-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7DE5B0DC6AB8891002CC2E1CB60253 /* Pods-SafeDataEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SafeDataEntry-iOS9.3.xcconfig"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.xcconfig"; sourceTree = "<group>"; };
+		FEB53E47456C3B17DE0BA43E61F662E1 /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		007130FF972FF0A539FF6737F0DD187E /* Frameworks */ = {
+		1CB2A744184D4919A90DD7AF00C57F1E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FA285849A5D91518D1ADA6E6255919C /* Foundation.framework in Frameworks */,
+				3F3FBD40AA8A130F98BC87438E9851F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		057BE4BB1BAAC540EF25DFD28455AA4A /* Frameworks */ = {
+		4B4EDC2795BE0DECBE20FB22E1535397 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4409DB5B069B8615FD13DE131DA2F9D4 /* Foundation.framework in Frameworks */,
+				A974252303718C7662D12CFA58EBD1FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40A31F7E032000CFC0E353D961A75B28 /* Frameworks */ = {
+		937CAFBCBC14BC9EBC577C863B43EF21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84F36D35600832A3CD13AC14A726DAD5 /* Foundation.framework in Frameworks */,
+				0D349EFBBA09ABE49757C881B1C173D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60B818D7E4CAC97E3F673D1A83F5E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C438FC0C77E4596A9E0E542403A4CD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D997A2D74FBDEA57537501819AC8B503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB12623BED6BDE157B6F32EF6D9F98F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		029C5C0DF16BC3FE9E13F69C7D7301E1 /* Products */ = {
+		252BC062C0C829B1F5489F245C7C6B71 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D6182015F8691F0FE162FC8E85791A3 /* Pods_SafeDataEntry_Example.framework */,
-				BB7F6F713865D5AED8EFF6C5DADB5A48 /* Pods_SafeDataEntry_Tests.framework */,
-				7165BF4A5CA72ACB2AA1589BB562FE8F /* SafeDataEntry.framework */,
+				CA64B0BDE9B9496299910C09CBED80FD /* Info.plist */,
+				76137CD4A4A1C1BC8CBC66E1D1D5C379 /* Info.plist */,
+				1E883C3017DD95AB056A22EF677C647D /* SafeDataEntry-iOS11.2.modulemap */,
+				8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */,
+				AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */,
+				9D1D24FA091581DFFD164C1B941CE7A6 /* SafeDataEntry-iOS11.2-prefix.pch */,
+				4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */,
+				778CE349A81C782BFCCDE14E8F8F978D /* SafeDataEntry-iOS9.3.modulemap */,
+				FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */,
+				71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */,
+				EFA0F932C4BBF91FA974A2D7A2439339 /* SafeDataEntry-iOS9.3-prefix.pch */,
+				A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SafeDataEntry-iOS11.2";
 			sourceTree = "<group>";
 		};
-		20DA0F28CDC0ED22CA68A7B3251D564C /* Pod */ = {
+		654645440F03D0A8FF867653A96311B5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				63CFF0B9AC984E230C255BD88C053686 /* LICENSE */,
-				125C0A9E8825166C883E59440449B02F /* README.md */,
-				67DE3EB9C86734C04B227FB56B402C88 /* SafeDataEntry.podspec */,
+				D3ED01DC4965FE04C25770CDA9582E28 /* Pods-SafeDataEntry_Example */,
+				E949AC42660574B0554779C2999F34B7 /* Pods-SafeDataEntry_ExampleUITests */,
+				69971785F66BD038F8885B15D477CFC3 /* Pods-SafeDataEntry_Tests */,
 			);
-			name = Pod;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		69511E6529B4EB4EF40C32E12176C1A4 /* Pods-SafeDataEntry_Example */ = {
+		69971785F66BD038F8885B15D477CFC3 /* Pods-SafeDataEntry_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				557F866F6982FE8E83CCA7F43CE58632 /* Info.plist */,
-				6985B71D089C9AD7B594422306D7492D /* Pods-SafeDataEntry_Example.modulemap */,
-				312798C2A2871DE3394B3A8F981D76D2 /* Pods-SafeDataEntry_Example-acknowledgements.markdown */,
-				F174F399190F34487DA7A27E8B9F45B2 /* Pods-SafeDataEntry_Example-acknowledgements.plist */,
-				1A740C5127165D5848F8125AE1CBB70A /* Pods-SafeDataEntry_Example-dummy.m */,
-				F097FC9D06F49AE00B7FA9B3CC94B036 /* Pods-SafeDataEntry_Example-frameworks.sh */,
-				6EA5AE47CFA44F6030DA902118FA5719 /* Pods-SafeDataEntry_Example-resources.sh */,
-				B00D4F45784A36C399F524123C000AC4 /* Pods-SafeDataEntry_Example-umbrella.h */,
-				06F13E58884BE7BF99A6B1B7A7DA7E00 /* Pods-SafeDataEntry_Example.debug.xcconfig */,
-				C1C4A5CA0187DC74517827695C8408F2 /* Pods-SafeDataEntry_Example.release.xcconfig */,
-			);
-			name = "Pods-SafeDataEntry_Example";
-			path = "Target Support Files/Pods-SafeDataEntry_Example";
-			sourceTree = "<group>";
-		};
-		7A1DDD7951DB41945D0807A175B03BB7 /* Pods-SafeDataEntry_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A8CC86239D670F954A46626F8144D3D0 /* Info.plist */,
-				529ADF000A7FE3B59701627335D3DE77 /* Pods-SafeDataEntry_Tests.modulemap */,
-				45D1A5976FC41A38CB630586D2D40E3C /* Pods-SafeDataEntry_Tests-acknowledgements.markdown */,
-				13256892C2A9FCD1C8455F892E693AA2 /* Pods-SafeDataEntry_Tests-acknowledgements.plist */,
-				83F56C746649412B4D427A36535D4C0D /* Pods-SafeDataEntry_Tests-dummy.m */,
-				29102D54118FD238F901042130CB7E1C /* Pods-SafeDataEntry_Tests-frameworks.sh */,
-				A70F0AA5B71B21AA114B5CAABAD08E59 /* Pods-SafeDataEntry_Tests-resources.sh */,
-				73CEF4F1CDE29464CBBA8D5A271722DC /* Pods-SafeDataEntry_Tests-umbrella.h */,
-				FCCC0A1642F38625A19580FEE8FA9615 /* Pods-SafeDataEntry_Tests.debug.xcconfig */,
-				7F4BAAAD6DC4B9AC8B2EDEBF2F3E6AC8 /* Pods-SafeDataEntry_Tests.release.xcconfig */,
+				E6E8774284D02F502BE11D45AAC03835 /* Info.plist */,
+				63B731AE7E06E6F9F9B8D4B22225470F /* Pods-SafeDataEntry_Tests.modulemap */,
+				8DA3B2F1B268C640EA2502F72283544A /* Pods-SafeDataEntry_Tests-acknowledgements.markdown */,
+				790321A431EA6C0F677A838F32A4FD30 /* Pods-SafeDataEntry_Tests-acknowledgements.plist */,
+				20708E7843EF4EF84ECED92EEC428EAF /* Pods-SafeDataEntry_Tests-dummy.m */,
+				9EE617DF28E1F139D77B48992F0E55D4 /* Pods-SafeDataEntry_Tests-frameworks.sh */,
+				1786C4CC1E341DB73DEDAAD913180013 /* Pods-SafeDataEntry_Tests-resources.sh */,
+				1CFAB07C54307C0F8FAFB9887FCE0440 /* Pods-SafeDataEntry_Tests-umbrella.h */,
+				AA7AFC003970B375908EF25D653001BE /* Pods-SafeDataEntry_Tests.debug.xcconfig */,
+				8D02802C6419D1C97AFE1E880DDDD3FE /* Pods-SafeDataEntry_Tests.release.xcconfig */,
 			);
 			name = "Pods-SafeDataEntry_Tests";
 			path = "Target Support Files/Pods-SafeDataEntry_Tests";
+			sourceTree = "<group>";
+		};
+		6F5E419B6DFCEE30D5D8B2312BA39DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D703117EC8D00232A87148F851061ED /* Pods_SafeDataEntry_Example.framework */,
+				3DC8197F1BD4348288173A0B7963A07B /* Pods_SafeDataEntry_ExampleUITests.framework */,
+				4791A346CBE803AE4F7E5543429190B5 /* Pods_SafeDataEntry_Tests.framework */,
+				ECF6673EC5B6D20C8C1CD3A116BF99C8 /* SafeDataEntry.framework */,
+				EFEEAC042511D859EA0F8B3206193788 /* SafeDataEntry.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -157,18 +216,20 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FBE648DE5D6806617FC6A2B21BA8D8B8 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				029C5C0DF16BC3FE9E13F69C7D7301E1 /* Products */,
-				9385577A0F45D4B86F139FBC6570E965 /* Targets Support Files */,
+				6F5E419B6DFCEE30D5D8B2312BA39DF4 /* Products */,
+				654645440F03D0A8FF867653A96311B5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9385577A0F45D4B86F139FBC6570E965 /* Targets Support Files */ = {
+		86F07836689EC8526AB0259B8234B270 /* SafeDataEntry */ = {
 			isa = PBXGroup;
 			children = (
-				69511E6529B4EB4EF40C32E12176C1A4 /* Pods-SafeDataEntry_Example */,
-				7A1DDD7951DB41945D0807A175B03BB7 /* Pods-SafeDataEntry_Tests */,
+				51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */,
+				DCD075C560B1BA040702273FFD5303B2 /* Pod */,
+				252BC062C0C829B1F5489F245C7C6B71 /* Support Files */,
 			);
-			name = "Targets Support Files";
+			name = SafeDataEntry;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -187,35 +248,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DED25D972085974979843EDA47BE81A8 /* SafeDataEntry */ = {
+		D3ED01DC4965FE04C25770CDA9582E28 /* Pods-SafeDataEntry_Example */ = {
 			isa = PBXGroup;
 			children = (
-				BB4D08CBD67364BFB60D1D54BC6FCD05 /* ReplaceMe.swift */,
-				20DA0F28CDC0ED22CA68A7B3251D564C /* Pod */,
-				E4BEAE4C4BCC18B19740A9BE645538C3 /* Support Files */,
+				7B2DC2DBC62086CDC416BDEDB626003B /* Info.plist */,
+				39EB74FF29D9510A86F7CBEEDBB98F08 /* Pods-SafeDataEntry_Example.modulemap */,
+				9B2C3965EDD98E582B9F6B91960F06C3 /* Pods-SafeDataEntry_Example-acknowledgements.markdown */,
+				2860F3EC460FB02DF673466533E6D1D0 /* Pods-SafeDataEntry_Example-acknowledgements.plist */,
+				C728B2A82D8E4C8FFB2FDF351109A8E7 /* Pods-SafeDataEntry_Example-dummy.m */,
+				3BD759DDB87048E474D4CB7532F70C37 /* Pods-SafeDataEntry_Example-frameworks.sh */,
+				C921BC9CF486F2BC5AD3AF6E76ED4D79 /* Pods-SafeDataEntry_Example-resources.sh */,
+				2AF7B5A0C3169450BB32CA41AC8016C2 /* Pods-SafeDataEntry_Example-umbrella.h */,
+				BEA4E1ED03EB88FA27E9D094953A3D3C /* Pods-SafeDataEntry_Example.debug.xcconfig */,
+				FD7DE5B0DC6AB8891002CC2E1CB60253 /* Pods-SafeDataEntry_Example.release.xcconfig */,
 			);
-			name = SafeDataEntry;
-			path = ../..;
+			name = "Pods-SafeDataEntry_Example";
+			path = "Target Support Files/Pods-SafeDataEntry_Example";
 			sourceTree = "<group>";
 		};
-		E4BEAE4C4BCC18B19740A9BE645538C3 /* Support Files */ = {
+		DCD075C560B1BA040702273FFD5303B2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72F2E14B09B0B56EC3E4671AA696CC3D /* Info.plist */,
-				9B79CD87F2E19AC9DF2F809D671B4F72 /* SafeDataEntry.modulemap */,
-				4194889C9F39B36BEBB75F91F1B0F715 /* SafeDataEntry.xcconfig */,
-				1A8DD4E7E51811E7BCFD8AB6503B76DE /* SafeDataEntry-dummy.m */,
-				68A23FEA398F2C763A2BE9A369EBFC4F /* SafeDataEntry-prefix.pch */,
-				FD26152C9EFD9FA98685B2C945867B4B /* SafeDataEntry-umbrella.h */,
+				B63EB5BBF26DE678B977770A1A26BD83 /* LICENSE */,
+				A2B25C0948B9469A1EEE0868CA335436 /* README.md */,
+				4A7B989D0F4CFC54AEEBA6694A18A447 /* SafeDataEntry.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SafeDataEntry";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E949AC42660574B0554779C2999F34B7 /* Pods-SafeDataEntry_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58F632512E0651FE3463C035B03A9B06 /* Info.plist */,
+				D3C77D90C0201213125CE639BA76ADB6 /* Pods-SafeDataEntry_ExampleUITests.modulemap */,
+				941823E87A083B41A2D8AAD27A550D3A /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.markdown */,
+				EFBDD1B0A45D4CBB9271C95A399F3A30 /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.plist */,
+				6A70E5F3EB63BBBD627222EB7EDE0631 /* Pods-SafeDataEntry_ExampleUITests-dummy.m */,
+				9DC0D8788FB8E7FEDD3BF68BBA0AEBC1 /* Pods-SafeDataEntry_ExampleUITests-frameworks.sh */,
+				BCC484CDB602332C758869180E30D3C3 /* Pods-SafeDataEntry_ExampleUITests-resources.sh */,
+				9EB45396AA77098C69DBA1D1296C906B /* Pods-SafeDataEntry_ExampleUITests-umbrella.h */,
+				57D34E8EA539FCC9D778EF01F012951C /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */,
+				FEB53E47456C3B17DE0BA43E61F662E1 /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */,
+			);
+			name = "Pods-SafeDataEntry_ExampleUITests";
+			path = "Target Support Files/Pods-SafeDataEntry_ExampleUITests";
 			sourceTree = "<group>";
 		};
 		FBE648DE5D6806617FC6A2B21BA8D8B8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DED25D972085974979843EDA47BE81A8 /* SafeDataEntry */,
+				86F07836689EC8526AB0259B8234B270 /* SafeDataEntry */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -223,83 +305,135 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3879407245D63C617312C6FBC6CACF7B /* Headers */ = {
+		0774B7E36B07F7384E63464D3CC448F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54764B3022E72C21023C805C9DE081A7 /* SafeDataEntry-umbrella.h in Headers */,
+				9A7973F54F2098CDBE20D63E59A8B8B1 /* SafeDataEntry-iOS9.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ED5E6D4DE45336ACBB2E529A397A958 /* Headers */ = {
+		21AA97E184378357D8EAFB902163147D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4AB936477D7DAB3D85823B147D3019F /* Pods-SafeDataEntry_Tests-umbrella.h in Headers */,
+				3F3F561B8CA137DFB28414DED7A7EC61 /* SafeDataEntry-iOS11.2-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA44EE27A9B5743B03E949E6268A6149 /* Headers */ = {
+		31F625DB6326FA3FAE631DDA56E0EE3C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3734A5C316F153D752863233D9E7F1D3 /* Pods-SafeDataEntry_Example-umbrella.h in Headers */,
+				68562556E20331D38B7AA3009675557F /* Pods-SafeDataEntry_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D8A4DC8DA5A7E5C4EF079F18C950C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928959A37BB743E2CB3B969A238FD5BC /* Pods-SafeDataEntry_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F89E2749C95A114A4B9BBBA9B785755B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4C51B2494FFBD1A84C9E9D2BD54B97 /* Pods-SafeDataEntry_ExampleUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		71600DD278636F58C000343DD8C46865 /* SafeDataEntry */ = {
+		355730BEE5CEE84BFEE36929BD6E530D /* Pods-SafeDataEntry_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6441CBBEE8A2EC09BC6FA97E20F2F66D /* Build configuration list for PBXNativeTarget "SafeDataEntry" */;
+			buildConfigurationList = 9C3F65BA4641C894E45CEAE4531EB6AF /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Example" */;
 			buildPhases = (
-				369C393527A06E1F58A69CEF57B43B11 /* Sources */,
-				007130FF972FF0A539FF6737F0DD187E /* Frameworks */,
-				3879407245D63C617312C6FBC6CACF7B /* Headers */,
+				3AE1892A0A46900260C5563E7624C6CF /* Sources */,
+				1CB2A744184D4919A90DD7AF00C57F1E /* Frameworks */,
+				D0D8A4DC8DA5A7E5C4EF079F18C950C5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = SafeDataEntry;
-			productName = SafeDataEntry;
-			productReference = 7165BF4A5CA72ACB2AA1589BB562FE8F /* SafeDataEntry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9B050DBD12E227740EDC1C9B8BF09061 /* Pods-SafeDataEntry_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC668B442616B702BD62791467CDF8CF /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Example" */;
-			buildPhases = (
-				DE2405C9B897C9A18D1DD9158738CA96 /* Sources */,
-				40A31F7E032000CFC0E353D961A75B28 /* Frameworks */,
-				FA44EE27A9B5743B03E949E6268A6149 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				45B4E232A3D83A989533A087CB5B7524 /* PBXTargetDependency */,
+				5626549680593543D386F940BF98774C /* PBXTargetDependency */,
 			);
 			name = "Pods-SafeDataEntry_Example";
 			productName = "Pods-SafeDataEntry_Example";
-			productReference = 4D6182015F8691F0FE162FC8E85791A3 /* Pods_SafeDataEntry_Example.framework */;
+			productReference = 8D703117EC8D00232A87148F851061ED /* Pods_SafeDataEntry_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A78E114A8D91291F7134A8C5B5E0DFB4 /* Pods-SafeDataEntry_Tests */ = {
+		381D877D0D9CD7891EFB7905744B92D5 /* SafeDataEntry-iOS9.3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10CF747080945E9D21BD1EDA79EBC58A /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Tests" */;
+			buildConfigurationList = 7176CCD2776E50E0F06F2CC22C168A4D /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS9.3" */;
 			buildPhases = (
-				BF61B71529E9E45B21D054BA93323177 /* Sources */,
-				057BE4BB1BAAC540EF25DFD28455AA4A /* Frameworks */,
-				7ED5E6D4DE45336ACBB2E529A397A958 /* Headers */,
+				E42D7220251C09F44F5A85050A0F6FA6 /* Sources */,
+				D997A2D74FBDEA57537501819AC8B503 /* Frameworks */,
+				0774B7E36B07F7384E63464D3CC448F7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "SafeDataEntry-iOS9.3";
+			productName = "SafeDataEntry-iOS9.3";
+			productReference = EFEEAC042511D859EA0F8B3206193788 /* SafeDataEntry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EA4C5B91EAAB8B0902CAB87923A2543 /* Pods-SafeDataEntry_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046ED2F65FE43AF17EA2192A8F4B1ED3 /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Tests" */;
+			buildPhases = (
+				7508C9EC12820E53B4E6E96FC3B8CAF8 /* Sources */,
+				C60B818D7E4CAC97E3F673D1A83F5E31 /* Frameworks */,
+				31F625DB6326FA3FAE631DDA56E0EE3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91AACB891CF3ADFBCDAE37780F7149EC /* PBXTargetDependency */,
+			);
 			name = "Pods-SafeDataEntry_Tests";
 			productName = "Pods-SafeDataEntry_Tests";
-			productReference = BB7F6F713865D5AED8EFF6C5DADB5A48 /* Pods_SafeDataEntry_Tests.framework */;
+			productReference = 4791A346CBE803AE4F7E5543429190B5 /* Pods_SafeDataEntry_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8D379640393C06520709B59BD640091 /* SafeDataEntry-iOS11.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DD782D5A70614C2ACA3DEB013D96BC /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS11.2" */;
+			buildPhases = (
+				A769DDDBCA2AD839B6A9682F523AADC7 /* Sources */,
+				4B4EDC2795BE0DECBE20FB22E1535397 /* Frameworks */,
+				21AA97E184378357D8EAFB902163147D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SafeDataEntry-iOS11.2";
+			productName = "SafeDataEntry-iOS11.2";
+			productReference = ECF6673EC5B6D20C8C1CD3A116BF99C8 /* SafeDataEntry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC691AB75F8E97508DDD19BF8A334400 /* Pods-SafeDataEntry_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C529D381D7B4F75322274808FA627DD /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_ExampleUITests" */;
+			buildPhases = (
+				4021468A7CDE56E015A236B7B7FB3A27 /* Sources */,
+				937CAFBCBC14BC9EBC577C863B43EF21 /* Frameworks */,
+				F89E2749C95A114A4B9BBBA9B785755B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958E766AFFED541524C7EEF1B03EC5F2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SafeDataEntry_ExampleUITests";
+			productName = "Pods-SafeDataEntry_ExampleUITests";
+			productReference = 3DC8197F1BD4348288173A0B7963A07B /* Pods_SafeDataEntry_ExampleUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,58 +453,89 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 029C5C0DF16BC3FE9E13F69C7D7301E1 /* Products */;
+			productRefGroup = 6F5E419B6DFCEE30D5D8B2312BA39DF4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B050DBD12E227740EDC1C9B8BF09061 /* Pods-SafeDataEntry_Example */,
-				A78E114A8D91291F7134A8C5B5E0DFB4 /* Pods-SafeDataEntry_Tests */,
-				71600DD278636F58C000343DD8C46865 /* SafeDataEntry */,
+				355730BEE5CEE84BFEE36929BD6E530D /* Pods-SafeDataEntry_Example */,
+				EC691AB75F8E97508DDD19BF8A334400 /* Pods-SafeDataEntry_ExampleUITests */,
+				4EA4C5B91EAAB8B0902CAB87923A2543 /* Pods-SafeDataEntry_Tests */,
+				C8D379640393C06520709B59BD640091 /* SafeDataEntry-iOS11.2 */,
+				381D877D0D9CD7891EFB7905744B92D5 /* SafeDataEntry-iOS9.3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		369C393527A06E1F58A69CEF57B43B11 /* Sources */ = {
+		3AE1892A0A46900260C5563E7624C6CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23DD621B7882649811AC24C9269F2BF5 /* ReplaceMe.swift in Sources */,
-				6FF68311F3CB715D50FFE7C16A15B06D /* SafeDataEntry-dummy.m in Sources */,
+				0A83B0030823FBBCBB57220FB391C905 /* Pods-SafeDataEntry_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF61B71529E9E45B21D054BA93323177 /* Sources */ = {
+		4021468A7CDE56E015A236B7B7FB3A27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE807B5DC9B8A47D8CEDF0C4B03670A /* Pods-SafeDataEntry_Tests-dummy.m in Sources */,
+				9065C623A15AFBA2EDBE93A750495C35 /* Pods-SafeDataEntry_ExampleUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE2405C9B897C9A18D1DD9158738CA96 /* Sources */ = {
+		7508C9EC12820E53B4E6E96FC3B8CAF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA614ECEA008EAF15A7E5BB75CED2B3 /* Pods-SafeDataEntry_Example-dummy.m in Sources */,
+				C7CFA2DA56A5E36497366A11D56318D2 /* Pods-SafeDataEntry_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A769DDDBCA2AD839B6A9682F523AADC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				392ADA61AE72DCEFCF472F16B73D7192 /* NumericEntryKeypad.swift in Sources */,
+				1D8BC7BDF73F696D5E90A6EB14312B05 /* SafeDataEntry-iOS11.2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42D7220251C09F44F5A85050A0F6FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CFE7F346BA3703873196EB0AA6DD0A3 /* NumericEntryKeypad.swift in Sources */,
+				E678D036841C0B59A0B6896FD728FCDF /* SafeDataEntry-iOS9.3-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45B4E232A3D83A989533A087CB5B7524 /* PBXTargetDependency */ = {
+		5626549680593543D386F940BF98774C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SafeDataEntry;
-			target = 71600DD278636F58C000343DD8C46865 /* SafeDataEntry */;
-			targetProxy = A7DE8161DD31EAB1BC20BA84A17B1DA6 /* PBXContainerItemProxy */;
+			name = "SafeDataEntry-iOS9.3";
+			target = 381D877D0D9CD7891EFB7905744B92D5 /* SafeDataEntry-iOS9.3 */;
+			targetProxy = 088FCB0CF7F0867689479656F46A0D1E /* PBXContainerItemProxy */;
+		};
+		91AACB891CF3ADFBCDAE37780F7149EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SafeDataEntry-iOS9.3";
+			target = 381D877D0D9CD7891EFB7905744B92D5 /* SafeDataEntry-iOS9.3 */;
+			targetProxy = 0357E88D1BFC6A360065424AB34FEB15 /* PBXContainerItemProxy */;
+		};
+		958E766AFFED541524C7EEF1B03EC5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SafeDataEntry-iOS11.2";
+			target = C8D379640393C06520709B59BD640091 /* SafeDataEntry-iOS11.2 */;
+			targetProxy = DCD0F2319744C39FD585093A7D2CBBC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		072BC3E2BEE628722C53503A1257A548 /* Debug */ = {
+		1D560AC4B51421E3F003724A96751ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4194889C9F39B36BEBB75F91F1B0F715 /* SafeDataEntry.xcconfig */;
+			baseConfigurationReference = FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -381,12 +546,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry/SafeDataEntry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SafeDataEntry/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafeDataEntry-iOS9.3/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SafeDataEntry/SafeDataEntry.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.modulemap";
 				PRODUCT_NAME = SafeDataEntry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -399,9 +564,9 @@
 			};
 			name = Debug;
 		};
-		07C77A8638F2930CFF2F29CF668A426B /* Release */ = {
+		2B8ABDFFA0B6432F8760F6923A8E15BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4194889C9F39B36BEBB75F91F1B0F715 /* SafeDataEntry.xcconfig */;
+			baseConfigurationReference = AA7AFC003970B375908EF25D653001BE /* Pods-SafeDataEntry_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -412,83 +577,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry/SafeDataEntry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SafeDataEntry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SafeDataEntry/SafeDataEntry.modulemap";
-				PRODUCT_NAME = SafeDataEntry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		21A5695F0A72B8242975A9A2E423037F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C4A5CA0187DC74517827695C8408F2 /* Pods-SafeDataEntry_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SafeDataEntry_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3290D472985CE9C6B948C83FA978A8E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06F13E58884BE7BF99A6B1B7A7DA7E00 /* Pods-SafeDataEntry_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SafeDataEntry_Example;
+				PRODUCT_NAME = Pods_SafeDataEntry_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -559,6 +658,72 @@
 			};
 			name = Debug;
 		};
+		5994ED3B63BE0448B35E0C9499058CD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D02802C6419D1C97AFE1E880DDDD3FE /* Pods-SafeDataEntry_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SafeDataEntry_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C3E943B7C5076686B495CBA99AEF056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry-iOS11.2/SafeDataEntry-iOS11.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafeDataEntry-iOS11.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SafeDataEntry-iOS11.2/SafeDataEntry-iOS11.2.modulemap";
+				PRODUCT_NAME = SafeDataEntry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -614,9 +779,9 @@
 			};
 			name = Release;
 		};
-		BF4FA6E8F0C4970C25EDC914B8BF4C42 /* Release */ = {
+		B469BB08B71F92130C3675AC68341EA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F4BAAAD6DC4B9AC8B2EDEBF2F3E6AC8 /* Pods-SafeDataEntry_Tests.release.xcconfig */;
+			baseConfigurationReference = BEA4E1ED03EB88FA27E9D094953A3D3C /* Pods-SafeDataEntry_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,19 +792,52 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SafeDataEntry_Tests;
+				PRODUCT_NAME = Pods_SafeDataEntry_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8CA0BAA8931303792DAA5A2644B22C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafeDataEntry-iOS9.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.modulemap";
+				PRODUCT_NAME = SafeDataEntry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -647,9 +845,9 @@
 			};
 			name = Release;
 		};
-		F072CA86B44C12816C08552552A59873 /* Debug */ = {
+		BE985AF358BC1B9A53B4507ADF10E702 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCCC0A1642F38625A19580FEE8FA9615 /* Pods-SafeDataEntry_Tests.debug.xcconfig */;
+			baseConfigurationReference = FD7DE5B0DC6AB8891002CC2E1CB60253 /* Pods-SafeDataEntry_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,33 +858,143 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Tests/Pods-SafeDataEntry_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SafeDataEntry_Tests;
+				PRODUCT_NAME = Pods_SafeDataEntry_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D312063FA415A5FDC5750224E32A1DF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D34E8EA539FCC9D778EF01F012951C /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SafeDataEntry_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		D3B2E4C07B7D79A7CD8903DDDC124F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SafeDataEntry-iOS11.2/SafeDataEntry-iOS11.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafeDataEntry-iOS11.2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SafeDataEntry-iOS11.2/SafeDataEntry-iOS11.2.modulemap";
+				PRODUCT_NAME = SafeDataEntry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE82FFE1BEE77D80E465F7E2466D1CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB53E47456C3B17DE0BA43E61F662E1 /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafeDataEntry_ExampleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SafeDataEntry_ExampleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10CF747080945E9D21BD1EDA79EBC58A /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Tests" */ = {
+		046ED2F65FE43AF17EA2192A8F4B1ED3 /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F072CA86B44C12816C08552552A59873 /* Debug */,
-				BF4FA6E8F0C4970C25EDC914B8BF4C42 /* Release */,
+				2B8ABDFFA0B6432F8760F6923A8E15BE /* Debug */,
+				5994ED3B63BE0448B35E0C9499058CD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DD782D5A70614C2ACA3DEB013D96BC /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS11.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B2E4C07B7D79A7CD8903DDDC124F00 /* Debug */,
+				6C3E943B7C5076686B495CBA99AEF056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,20 +1008,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6441CBBEE8A2EC09BC6FA97E20F2F66D /* Build configuration list for PBXNativeTarget "SafeDataEntry" */ = {
+		7176CCD2776E50E0F06F2CC22C168A4D /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS9.3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				072BC3E2BEE628722C53503A1257A548 /* Debug */,
-				07C77A8638F2930CFF2F29CF668A426B /* Release */,
+				1D560AC4B51421E3F003724A96751ACA /* Debug */,
+				B8CA0BAA8931303792DAA5A2644B22C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC668B442616B702BD62791467CDF8CF /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Example" */ = {
+		7C529D381D7B4F75322274808FA627DD /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_ExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3290D472985CE9C6B948C83FA978A8E8 /* Debug */,
-				21A5695F0A72B8242975A9A2E423037F /* Release */,
+				D312063FA415A5FDC5750224E32A1DF7 /* Debug */,
+				EE82FFE1BEE77D80E465F7E2466D1CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3F65BA4641C894E45CEAE4531EB6AF /* Build configuration list for PBXNativeTarget "Pods-SafeDataEntry_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B469BB08B71F92130C3675AC68341EA3 /* Debug */,
+				BE985AF358BC1B9A53B4507ADF10E702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
