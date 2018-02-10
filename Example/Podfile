@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SafeDataEntry_Example' do
+  pod 'SafeDataEntry', :path => '../'
+
+  target 'SafeDataEntry_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
