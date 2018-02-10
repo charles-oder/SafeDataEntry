@@ -1,0 +1,22 @@
+{
+  "name": "SafeDataEntry",
+  "version": "0.1.0",
+  "summary": "A short description of SafeDataEntry.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/charles-oder/SafeDataEntry",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "charles-oder": "charles@oder.us"
+  },
+  "source": {
+    "git": "https://github.com/charles-oder/SafeDataEntry.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SafeDataEntry/Classes/**/*"
+}

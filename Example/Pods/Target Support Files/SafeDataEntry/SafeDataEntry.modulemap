@@ -1,0 +1,6 @@
+framework module SafeDataEntry {
+  umbrella header "SafeDataEntry-umbrella.h"
+
+  export *
+  module * { export * }
+}
