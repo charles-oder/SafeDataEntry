@@ -19,6 +19,7 @@
 		E1689EF02030AFCD00B26EE2 /* TestUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EEE20309AAC00B26EE2 /* TestUITextFieldDelegate.swift */; };
 		E1689EF32030BA2500B26EE2 /* ValidatingTextViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1689EF22030BA2500B26EE2 /* ValidatingTextViews.storyboard */; };
 		E1689EF52030BAE900B26EE2 /* ValidatingTextViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EF42030BAE900B26EE2 /* ValidatingTextViewsViewController.swift */; };
+		E1689EF72030C27800B26EE2 /* AutoCorrectingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EF62030C27800B26EE2 /* AutoCorrectingTextFieldTests.swift */; };
 		E1DF7FD0202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */; };
 		E1DF7FD9202F73AB0088F560 /* NumericEntryKeypad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DF7FD8202F73AB0088F560 /* NumericEntryKeypad.storyboard */; };
 		E1DF7FDB202F73C40088F560 /* NumericEntryKeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FDA202F73C40088F560 /* NumericEntryKeypadViewController.swift */; };
@@ -66,6 +67,7 @@
 		E1689EEE20309AAC00B26EE2 /* TestUITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITextFieldDelegate.swift; sourceTree = "<group>"; };
 		E1689EF22030BA2500B26EE2 /* ValidatingTextViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ValidatingTextViews.storyboard; sourceTree = "<group>"; };
 		E1689EF42030BAE900B26EE2 /* ValidatingTextViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingTextViewsViewController.swift; sourceTree = "<group>"; };
+		E1689EF62030C27800B26EE2 /* AutoCorrectingTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCorrectingTextFieldTests.swift; sourceTree = "<group>"; };
 		E1DF7FCD202F71FB0088F560 /* SafeDataEntry_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDataEntry_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDataEntry_ExampleUITests.swift; sourceTree = "<group>"; };
 		E1DF7FD1202F71FB0088F560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 				E1689EEC20309A7200B26EE2 /* ValidatingTextFieldTests.swift */,
 				E1689EEB20309A7200B26EE2 /* SafeDataEntry_Tests-Bridging-Header.h */,
+				E1689EF62030C27800B26EE2 /* AutoCorrectingTextFieldTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -542,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1689EF72030C27800B26EE2 /* AutoCorrectingTextFieldTests.swift in Sources */,
 				E1689EF02030AFCD00B26EE2 /* TestUITextFieldDelegate.swift in Sources */,
 				E1689EED20309A7200B26EE2 /* ValidatingTextFieldTests.swift in Sources */,
 			);

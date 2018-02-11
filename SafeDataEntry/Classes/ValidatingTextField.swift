@@ -60,6 +60,10 @@ public class ValidatingTextField: UITextField {
         setup()
     }
     
+    public func setTextWithoutValidation(_ text: String?) {
+        super.text = text
+    }
+    
     private func setup() {
         super.delegate = self
     }

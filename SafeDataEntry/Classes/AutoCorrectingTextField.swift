@@ -14,7 +14,7 @@ public class AutoCorrectingTextField: ValidatingTextField {
     private var validTextColor: UIColor? = .black
     private var validationTimer: Timer?
     
-    @IBInspectable var resetDelay: Double = 1.0
+    @IBInspectable public var resetDelay: Double = 1.0
     
     public override var text: String? {
         set {
