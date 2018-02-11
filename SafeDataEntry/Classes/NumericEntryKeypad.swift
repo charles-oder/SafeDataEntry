@@ -22,6 +22,8 @@ public class NumericEntryKeypad: UIView {
         }
     }
     
+    private var plusMinusTitle: String = "±"
+    
     private var deleteButton: UIButton!
     private var doneButton: UIButton!
     private var stackView: UIStackView!
@@ -72,7 +74,7 @@ public class NumericEntryKeypad: UIView {
                 createButton(title: "1"), createButton(title: "2"), createButton(title: "3"), UIView()
                 ]),
             createStackView(axis: .horizontal, items: [
-                createButton(title: "."), createButton(title: "0"), createButton(title: "-"), doneButton
+                createButton(title: "."), createButton(title: "0"), createButton(title: plusMinusTitle), doneButton
                 ])
             ])
         addSubview(stackView)
@@ -83,7 +85,9 @@ public class NumericEntryKeypad: UIView {
         
         textField = UIView.firstResponder as? UITextField
         
-        if button.currentTitle == doneTitle {
+        if button.currentTitle == plusMinusTitle {
+            numericKeypadDidFlipSign()
+        } else if button.currentTitle == doneTitle {
             numericKeypadDidFinish()
         } else if button.currentTitle == deleteTitle {
             numericKeypadDidBackspace()
@@ -118,6 +122,48 @@ public class NumericEntryKeypad: UIView {
             setTitleColor(.darkGray, for: .normal)
             titleLabel?.font = UIFont.systemFont(ofSize: 30)
             titleLabel?.textAlignment = .center
+            layer.cornerRadius = 5
+            clipsToBounds = true
+        }
+        
+        override var isHighlighted: Bool {
+            didSet {
+                backgroundColor = isHighlighted ? UIColor.black.withAlphaComponent(0.1) : .white
+            }
+        }
+    }
+    
+    private func numericKeypadDidFlipSign() {
+        if textField?.text?.hasPrefix("-") == true {
+            removeMinusSign()
+        } else {
+            insertMinusSign()
+        }
+    }
+    
+    private func insertMinusSign() {
+        guard let unwrappedTextField = textField else {
+            return
+        }
+        var newString: String = unwrappedTextField.text ?? ""
+        let range = NSRange(location: 0, length: 0)
+        
+        if unwrappedTextField.delegate?.textField?(unwrappedTextField, shouldChangeCharactersIn: range, replacementString: "-") != false {
+            newString.insert(Character("-"), at: String.Index(encodedOffset: range.location))
+            unwrappedTextField.text = newString
+        }
+    }
+    
+    private func removeMinusSign() {
+        guard let unwrappedTextField = textField else {
+            return
+        }
+        var newString: String = unwrappedTextField.text ?? ""
+        let range = NSRange(location: 0, length: 1)
+        
+        if unwrappedTextField.delegate?.textField?(unwrappedTextField, shouldChangeCharactersIn: range, replacementString: "") != false {
+            newString.remove(at: newString.startIndex)
+            unwrappedTextField.text = newString
         }
     }
     
