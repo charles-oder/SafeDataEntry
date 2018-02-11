@@ -82,7 +82,6 @@ class SafeDataEntry_ExampleUITests: XCTestCase {
     }
     
     func testNegativeNumbers() {
-        // ±
         goToNumericKeypadTests()
         
         let dataEntryField = app.textFields["dataEntryField"]
@@ -99,9 +98,73 @@ class SafeDataEntry_ExampleUITests: XCTestCase {
         XCTAssertEqual(dataEntryField.value as? String, "-12")
         app.buttons["±"].tap()
         XCTAssertEqual(dataEntryField.value as? String, "12")
+        
+    }
+    
+    func testUpThenDownFromEmpty() {
+        goToNumericKeypadTests()
+        app.switches["allowDecimalsSwitch"].tap()
+
+        let dataEntryField = app.textFields["dataEntryField"]
+        dataEntryField.tap()
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "1")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "2")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "3")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "2")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "1")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "0")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-1")
 
     }
+    
+    func testDownDownThenUpFromEmpty() {
+        goToNumericKeypadTests()
+        app.switches["allowDecimalsSwitch"].tap()
 
+        let dataEntryField = app.textFields["dataEntryField"]
+        dataEntryField.tap()
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-1")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-2")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-3")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-2")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "-1")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "0")
+        app.buttons["˄"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "1")
+
+    }
+    
+    func testDownButtonStopsAtZeroWhenNegativesAreNotAlowed() {
+        goToNumericKeypadTests()
+        app.switches["allowNegativesSwitch"].tap()
+        app.switches["allowDecimalsSwitch"].tap()
+
+        let dataEntryField = app.textFields["dataEntryField"]
+        dataEntryField.tap()
+        app.buttons["2"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "2")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "1")
+        app.buttons["˅"].tap()
+        XCTAssertEqual(dataEntryField.value as? String, "0")
+        
+        XCTAssertFalse(app.buttons["˅"].exists)
+        
+    }
+    
     func testChangeDeleteTitle() {
 
         goToNumericKeypadTests()

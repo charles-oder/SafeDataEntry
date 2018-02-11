@@ -24,6 +24,8 @@ public class NumericEntryKeypad: UIView {
     public var allowsDecimals: Bool = true {
         didSet {
             decimalButton?.isUserInteractionEnabled = allowsDecimals
+            upButton?.isUserInteractionEnabled = !allowsDecimals
+            downButton?.isUserInteractionEnabled = !allowsDecimals
         }
     }
     
@@ -34,7 +36,11 @@ public class NumericEntryKeypad: UIView {
     }
     
     private var plusMinusTitle: String = "±"
-    
+    private var upTitle: String = "˄"
+    private var downTitle: String = "˅"
+
+    private var upButton: UIButton!
+    private var downButton: UIButton!
     private var decimalButton: UIButton!
     private var plusMinusButton: UIButton!
     private var deleteButton: UIButton!
@@ -84,15 +90,17 @@ public class NumericEntryKeypad: UIView {
         deleteButton = createButton(title: deleteTitle)
         plusMinusButton = createButton(title: plusMinusTitle, isActive: allowsNegatives)
         decimalButton = createButton(title: ".", isActive: allowsDecimals)
+        upButton = createButton(title: upTitle, isActive: !allowsDecimals)
+        downButton = createButton(title: downTitle, isActive: !allowsDecimals)
         stackView = createStackView(axis: .vertical, items: [
             createStackView(axis: .horizontal, items: [
                 createButton(title: "7"), createButton(title: "8"), createButton(title: "9"), deleteButton
                 ]),
             createStackView(axis: .horizontal, items: [
-                createButton(title: "4"), createButton(title: "5"), createButton(title: "6"), UIView()
+                createButton(title: "4"), createButton(title: "5"), createButton(title: "6"), upButton
                 ]),
             createStackView(axis: .horizontal, items: [
-                createButton(title: "1"), createButton(title: "2"), createButton(title: "3"), UIView()
+                createButton(title: "1"), createButton(title: "2"), createButton(title: "3"), downButton
                 ]),
             createStackView(axis: .horizontal, items: [
                 decimalButton, createButton(title: "0"), plusMinusButton, doneButton
@@ -106,7 +114,11 @@ public class NumericEntryKeypad: UIView {
         
         textField = UIView.firstResponder as? UITextField
         
-        if button.currentTitle == plusMinusTitle {
+        if button.currentTitle == upTitle {
+            incrementValue()
+        } else if button.currentTitle == downTitle {
+            decrementValue()
+        } else if button.currentTitle == plusMinusTitle {
             numericKeypadDidFlipSign()
         } else if button.currentTitle == doneTitle {
             numericKeypadDidFinish()
@@ -114,6 +126,44 @@ public class NumericEntryKeypad: UIView {
             numericKeypadDidBackspace()
         } else if let value = button.currentTitle {
             numericKeypadDidAddValue(value)
+        }
+        
+        updateButtonVisibility(textValue: textField?.text)
+    }
+    
+    private func updateButtonVisibility(textValue: String?) {
+        downButton.isUserInteractionEnabled = !allowsDecimals && Int(textValue ?? "0") != 0
+    }
+    
+    private func incrementValue() {
+        guard let unwrappedTextField = textField else {
+            return
+        }
+        let oldString: String = unwrappedTextField.text ?? ""
+        let range = NSRange(location: 0, length: oldString.count)
+        
+        let oldInt = Int(oldString) ?? 0
+        let newInt = oldInt + 1
+        let newString = "\(newInt)"
+
+        if unwrappedTextField.delegate?.textField?(unwrappedTextField, shouldChangeCharactersIn: range, replacementString: "-") != false {
+            unwrappedTextField.text = newString
+        }
+    }
+    
+    private func decrementValue() {
+        guard let unwrappedTextField = textField else {
+            return
+        }
+        let oldString: String = unwrappedTextField.text ?? ""
+        let range = NSRange(location: 0, length: oldString.count)
+
+        let oldInt = Int(oldString) ?? 0
+        let newInt = oldInt - 1
+        let newString = "\(newInt)"
+        
+        if unwrappedTextField.delegate?.textField?(unwrappedTextField, shouldChangeCharactersIn: range, replacementString: "-") != false {
+            unwrappedTextField.text = newString
         }
     }
     
