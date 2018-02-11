@@ -173,6 +173,38 @@ class SafeDataEntry_ExampleUITests: XCTestCase {
         
     }
     
+    func testAllowDecimals() {
+        goToNumericKeypadTests()
+        
+        let dataEntryField = app.textFields["dataEntryField"]
+        dataEntryField.tap()
+        
+        app.switches["allowDecimalsSwitch"].tap()
+        
+        XCTAssertFalse(app.buttons["."].exists)
+        
+        app.switches["allowDecimalsSwitch"].tap()
+        
+        XCTAssertTrue(app.buttons["."].exists)
+        
+    }
+    
+    func testAllowNegatives() {
+        goToNumericKeypadTests()
+        
+        let dataEntryField = app.textFields["dataEntryField"]
+        dataEntryField.tap()
+        
+        app.switches["allowNegativesSwitch"].tap()
+        
+        XCTAssertFalse(app.buttons["±"].exists)
+        
+        app.switches["allowNegativesSwitch"].tap()
+        
+        XCTAssertTrue(app.buttons["±"].exists)
+        
+    }
+    
     func testReturnTitleChanged() {
         goToNumericKeypadTests()
         

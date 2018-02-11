@@ -34,6 +34,15 @@ class NumericEntryKeypadViewController: UIViewController {
         keypad.deleteTitle = deleteTitleField.text ?? "DEL"
         keypad.doneTitle = doneTitleField.text ?? "DONE"
     }
+    
+    @IBAction func allowDecimalsSwitchTapped(_ sender: UISwitch) {
+        keypad.allowsDecimals = sender.isOn
+    }
+    
+    @IBAction func allowNegativesSwitchTapped(_ sender: UISwitch) {
+        keypad.allowsNegatives = sender.isOn
+    }
+    
 }
 
 extension NumericEntryKeypadViewController: UITextFieldDelegate {

@@ -21,14 +21,32 @@ public class NumericEntryKeypad: UIView {
             doneButton.setTitle(doneTitle, for: .normal)
         }
     }
+    public var allowsDecimals: Bool = true {
+        didSet {
+            decimalButton?.isUserInteractionEnabled = allowsDecimals
+        }
+    }
+    
+    public var allowsNegatives: Bool = true {
+        didSet {
+            plusMinusButton.isUserInteractionEnabled = allowsNegatives
+        }
+    }
     
     private var plusMinusTitle: String = "±"
     
+    private var decimalButton: UIButton!
+    private var plusMinusButton: UIButton!
     private var deleteButton: UIButton!
     private var doneButton: UIButton!
     private var stackView: UIStackView!
     
     private var textField: UITextField?
+    
+    public convenience init(allowsNegatives: Bool = true, allowsDecimals: Bool = true, doneTitle: String = "DONE", deleteTitle: String = "DEL") {
+        self.init(frame: CGRect.zero)
+        self.allowsDecimals = allowsDecimals
+    }
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -46,8 +64,9 @@ public class NumericEntryKeypad: UIView {
         createButtons()
     }
     
-    private func createButton(title: String) -> UIButton {
+    private func createButton(title: String, isActive: Bool = true) -> UIButton {
         let button = NumberpadButton(title: title)
+        button.isUserInteractionEnabled = isActive
         button.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
         return button
     }
@@ -63,6 +82,8 @@ public class NumericEntryKeypad: UIView {
     private func createButtons() {
         doneButton = createButton(title: doneTitle)
         deleteButton = createButton(title: deleteTitle)
+        plusMinusButton = createButton(title: plusMinusTitle, isActive: allowsNegatives)
+        decimalButton = createButton(title: ".", isActive: allowsDecimals)
         stackView = createStackView(axis: .vertical, items: [
             createStackView(axis: .horizontal, items: [
                 createButton(title: "7"), createButton(title: "8"), createButton(title: "9"), deleteButton
@@ -74,7 +95,7 @@ public class NumericEntryKeypad: UIView {
                 createButton(title: "1"), createButton(title: "2"), createButton(title: "3"), UIView()
                 ]),
             createStackView(axis: .horizontal, items: [
-                createButton(title: "."), createButton(title: "0"), createButton(title: plusMinusTitle), doneButton
+                decimalButton, createButton(title: "0"), plusMinusButton, doneButton
                 ])
             ])
         addSubview(stackView)
@@ -102,6 +123,12 @@ public class NumericEntryKeypad: UIView {
     }
     
     class NumberpadButton: UIButton {
+        
+        override var isUserInteractionEnabled: Bool {
+            didSet {
+                alpha = isUserInteractionEnabled ? 1 : 0
+            }
+        }
         
         convenience init(title: String) {
             self.init(frame: CGRect.zero)
