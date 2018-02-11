@@ -26,11 +26,18 @@
                                 <rect key="frame" x="16" y="64" width="343" height="603"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLl-3p-L8O">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="301.5"/>
                                         <accessibility key="accessibilityConfiguration" identifier="numericEntryKeypad"/>
                                         <state key="normal" title="Numeric Entry Keypad"/>
                                         <connections>
                                             <segue destination="zln-tX-jiW" kind="show" id="py0-aD-Yn6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg5-sy-bXR">
+                                        <rect key="frame" x="0.0" y="301.5" width="343" height="301.5"/>
+                                        <state key="normal" title="ValidatingTextFields"/>
+                                        <connections>
+                                            <segue destination="26e-MD-WyZ" kind="show" id="Cyz-MV-vBG"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -72,6 +79,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bmc-iy-hUl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="710" y="-119"/>
+        </scene>
+        <!--ValidatingTextViews-->
+        <scene sceneID="fFT-ic-jXk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ValidatingTextViews" id="26e-MD-WyZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLW-DJ-XGh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="738" y="65"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,10 @@
 		7DA9A9F979FD804AC3E9F54A /* Pods_SafeDataEntry_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A3A1F5DD1A80E4E74FCA352 /* Pods_SafeDataEntry_Tests.framework */; };
 		9F3F55D46ED2462CF142FCBE /* Pods_SafeDataEntry_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139040B3423C997A37D431A8 /* Pods_SafeDataEntry_Example.framework */; };
 		BC4F115EC2C66D9E755CE32F /* Pods_SafeDataEntry_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4747C6B15420E9AFBF23E1A /* Pods_SafeDataEntry_ExampleUITests.framework */; };
+		E1689EED20309A7200B26EE2 /* ValidatingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EEC20309A7200B26EE2 /* ValidatingTextFieldTests.swift */; };
+		E1689EF02030AFCD00B26EE2 /* TestUITextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EEE20309AAC00B26EE2 /* TestUITextFieldDelegate.swift */; };
+		E1689EF32030BA2500B26EE2 /* ValidatingTextViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1689EF22030BA2500B26EE2 /* ValidatingTextViews.storyboard */; };
+		E1689EF52030BAE900B26EE2 /* ValidatingTextViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EF42030BAE900B26EE2 /* ValidatingTextViewsViewController.swift */; };
 		E1DF7FD0202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */; };
 		E1DF7FD9202F73AB0088F560 /* NumericEntryKeypad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DF7FD8202F73AB0088F560 /* NumericEntryKeypad.storyboard */; };
 		E1DF7FDB202F73C40088F560 /* NumericEntryKeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF7FDA202F73C40088F560 /* NumericEntryKeypadViewController.swift */; };
@@ -57,6 +61,11 @@
 		8A8118D8FFB1A3B014200858 /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_ExampleUITests/Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8804EDCC855440A9617D05A /* Pods-SafeDataEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAD66DDE69E5301608BE012A /* Pods-SafeDataEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeDataEntry_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeDataEntry_Example/Pods-SafeDataEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1689EEB20309A7200B26EE2 /* SafeDataEntry_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1689EEC20309A7200B26EE2 /* ValidatingTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingTextFieldTests.swift; sourceTree = "<group>"; };
+		E1689EEE20309AAC00B26EE2 /* TestUITextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITextFieldDelegate.swift; sourceTree = "<group>"; };
+		E1689EF22030BA2500B26EE2 /* ValidatingTextViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ValidatingTextViews.storyboard; sourceTree = "<group>"; };
+		E1689EF42030BAE900B26EE2 /* ValidatingTextViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingTextViewsViewController.swift; sourceTree = "<group>"; };
 		E1DF7FCD202F71FB0088F560 /* SafeDataEntry_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeDataEntry_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DF7FCF202F71FB0088F560 /* SafeDataEntry_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeDataEntry_ExampleUITests.swift; sourceTree = "<group>"; };
 		E1DF7FD1202F71FB0088F560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +139,7 @@
 		607FACD21AFB9204008FA782 /* Example for SafeDataEntry */ = {
 			isa = PBXGroup;
 			children = (
+				E1689EF12030BA0B00B26EE2 /* ValidatingTextViews */,
 				E1DF7FD7202F73890088F560 /* NumericEntryKeypad */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
@@ -154,6 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				E1689EEC20309A7200B26EE2 /* ValidatingTextFieldTests.swift */,
+				E1689EEB20309A7200B26EE2 /* SafeDataEntry_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -162,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
+				E1689EEE20309AAC00B26EE2 /* TestUITextFieldDelegate.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -187,6 +200,15 @@
 				3F584160573F7A16ABB36DFD /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1689EF12030BA0B00B26EE2 /* ValidatingTextViews */ = {
+			isa = PBXGroup;
+			children = (
+				E1689EF22030BA2500B26EE2 /* ValidatingTextViews.storyboard */,
+				E1689EF42030BAE900B26EE2 /* ValidatingTextViewsViewController.swift */,
+			);
+			name = ValidatingTextViews;
 			sourceTree = "<group>";
 		};
 		E1DF7FCE202F71FB0088F560 /* SafeDataEntry_ExampleUITests */ = {
@@ -288,7 +310,7 @@
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0920;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 					E1DF7FCC202F71FB0088F560 = {
@@ -325,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				E1689EF32030BA2500B26EE2 /* ValidatingTextViews.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				E1DF7FD9202F73AB0088F560 /* NumericEntryKeypad.storyboard in Resources */,
@@ -511,6 +534,7 @@
 				E1DF7FDB202F73C40088F560 /* NumericEntryKeypadViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				E1689EF52030BAE900B26EE2 /* ValidatingTextViewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +542,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1689EF02030AFCD00B26EE2 /* TestUITextFieldDelegate.swift in Sources */,
+				E1689EED20309A7200B26EE2 /* ValidatingTextFieldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,6 +723,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7774D3C0D9259FB7B2553236 /* Pods-SafeDataEntry_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -709,6 +736,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SafeDataEntry_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -718,6 +747,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFA1E9327ADE85BE2F6AA650 /* Pods-SafeDataEntry_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -726,6 +756,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SafeDataEntry_Tests-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

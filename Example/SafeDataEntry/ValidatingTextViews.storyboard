@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8O-N4-piM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Validating Text Views View Controller-->
+        <scene sceneID="Qbu-Dq-eYa">
+            <objects>
+                <viewController id="l8O-N4-piM" customClass="ValidatingTextViewsViewController" customModule="SafeDataEntry_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i9S-aB-pYV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eLu-iW-uZD">
+                                <rect key="frame" x="0.0" y="49" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8ZY-0a-WH7"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p2a-pS-gMI" customClass="ValidatingTextField" customModule="SafeDataEntry">
+                                <rect key="frame" x="0.0" y="116" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Mk-Q2-ehF"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid if Contains String:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zj-wG-IU8">
+                                <rect key="frame" x="98.5" y="20" width="178" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="oiy-ZZ-7z9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ValidationTextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OuU-wT-QXZ">
+                                <rect key="frame" x="116.5" y="87" width="142" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="qNd-rW-Uhn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fLX-zP-5Rc" customClass="AutoCorrectingTextField" customModule="SafeDataEntry">
+                                <rect key="frame" x="0.0" y="183" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="GW3-dr-mag"/>
+                                    <constraint firstAttribute="height" constant="30" id="oq5-bD-Qfy"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoCorrectingTextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGS-UN-UUG">
+                                <rect key="frame" x="94.5" y="154" width="185.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5Si-vs-VRu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eLu-iW-uZD" firstAttribute="top" secondItem="7zj-wG-IU8" secondAttribute="bottom" constant="8" id="Dvg-Az-4Zk"/>
+                            <constraint firstItem="p2a-pS-gMI" firstAttribute="leading" secondItem="PKO-ht-Bct" secondAttribute="leading" id="Iph-e7-TtY"/>
+                            <constraint firstItem="fLX-zP-5Rc" firstAttribute="leading" secondItem="PKO-ht-Bct" secondAttribute="leading" id="JbY-ZU-RPc"/>
+                            <constraint firstItem="fLX-zP-5Rc" firstAttribute="top" secondItem="cGS-UN-UUG" secondAttribute="bottom" constant="8" id="OYg-aZ-W8K"/>
+                            <constraint firstItem="eLu-iW-uZD" firstAttribute="leading" secondItem="PKO-ht-Bct" secondAttribute="leading" id="Txr-aV-ouD"/>
+                            <constraint firstItem="7zj-wG-IU8" firstAttribute="top" secondItem="PKO-ht-Bct" secondAttribute="top" id="Y66-l7-JC3"/>
+                            <constraint firstItem="p2a-pS-gMI" firstAttribute="top" secondItem="OuU-wT-QXZ" secondAttribute="bottom" constant="8" id="Zhm-La-zhu"/>
+                            <constraint firstItem="cGS-UN-UUG" firstAttribute="top" secondItem="p2a-pS-gMI" secondAttribute="bottom" constant="8" id="a0e-uK-86s"/>
+                            <constraint firstItem="OuU-wT-QXZ" firstAttribute="centerX" secondItem="i9S-aB-pYV" secondAttribute="centerX" id="ahC-9o-9h2"/>
+                            <constraint firstItem="7zj-wG-IU8" firstAttribute="centerX" secondItem="i9S-aB-pYV" secondAttribute="centerX" id="aqy-VN-z35"/>
+                            <constraint firstItem="PKO-ht-Bct" firstAttribute="trailing" secondItem="eLu-iW-uZD" secondAttribute="trailing" id="bn7-cz-3bM"/>
+                            <constraint firstItem="cGS-UN-UUG" firstAttribute="centerX" secondItem="i9S-aB-pYV" secondAttribute="centerX" id="dCI-8z-Z6r"/>
+                            <constraint firstItem="fLX-zP-5Rc" firstAttribute="trailing" secondItem="PKO-ht-Bct" secondAttribute="trailing" id="geo-sK-QKT"/>
+                            <constraint firstItem="PKO-ht-Bct" firstAttribute="trailing" secondItem="p2a-pS-gMI" secondAttribute="trailing" id="nsg-RN-qtv"/>
+                            <constraint firstItem="OuU-wT-QXZ" firstAttribute="top" secondItem="eLu-iW-uZD" secondAttribute="bottom" constant="8" id="xSM-iM-Dgn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PKO-ht-Bct"/>
+                    </view>
+                    <connections>
+                        <outlet property="autoCorrectingTextField" destination="fLX-zP-5Rc" id="dHC-fz-GQH"/>
+                        <outlet property="validatingTextField" destination="p2a-pS-gMI" id="s6Z-VP-rYg"/>
+                        <outlet property="validationStringField" destination="eLu-iW-uZD" id="tZt-fo-tP2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JtH-6C-sJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="86"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009CAE205FCD8C73A5611E72150B11FB /* AutoCorrectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AE0EC6E6415F52F82913D17F74670 /* AutoCorrectingTextField.swift */; };
+		086C9200B10C780DE263100061521119 /* SafeDataEntry-iOS11.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5FDAEF5B8083865C9AAFB259D3161 /* SafeDataEntry-iOS11.2-dummy.m */; };
 		0A83B0030823FBBCBB57220FB391C905 /* Pods-SafeDataEntry_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C728B2A82D8E4C8FFB2FDF351109A8E7 /* Pods-SafeDataEntry_Example-dummy.m */; };
-		0CFE7F346BA3703873196EB0AA6DD0A3 /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */; };
 		0D349EFBBA09ABE49757C881B1C173D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1D8BC7BDF73F696D5E90A6EB14312B05 /* SafeDataEntry-iOS11.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */; };
-		392ADA61AE72DCEFCF472F16B73D7192 /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */; };
-		3F3F561B8CA137DFB28414DED7A7EC61 /* SafeDataEntry-iOS11.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35AF8C8508B9130047EC83F4FDDA75F3 /* AutoCorrectingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56AE0EC6E6415F52F82913D17F74670 /* AutoCorrectingTextField.swift */; };
+		3F3F561B8CA137DFB28414DED7A7EC61 /* SafeDataEntry-iOS11.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 875D9A24F02CB3F88549A7009952ED0E /* SafeDataEntry-iOS11.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F3FBD40AA8A130F98BC87438E9851F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4E4C51B2494FFBD1A84C9E9D2BD54B97 /* Pods-SafeDataEntry_ExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB45396AA77098C69DBA1D1296C906B /* Pods-SafeDataEntry_ExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C438FC0C77E4596A9E0E542403A4CD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		68562556E20331D38B7AA3009675557F /* Pods-SafeDataEntry_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFAB07C54307C0F8FAFB9887FCE0440 /* Pods-SafeDataEntry_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DA8D87CA738017A78117C0D69F323DE /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A35B645D07C9E9EB566032D33AE164 /* NumericEntryKeypad.swift */; };
+		852E903753F424B93CB5F323D40473D4 /* NumericEntryKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A35B645D07C9E9EB566032D33AE164 /* NumericEntryKeypad.swift */; };
 		9065C623A15AFBA2EDBE93A750495C35 /* Pods-SafeDataEntry_ExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A70E5F3EB63BBBD627222EB7EDE0631 /* Pods-SafeDataEntry_ExampleUITests-dummy.m */; };
 		928959A37BB743E2CB3B969A238FD5BC /* Pods-SafeDataEntry_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF7B5A0C3169450BB32CA41AC8016C2 /* Pods-SafeDataEntry_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A7973F54F2098CDBE20D63E59A8B8B1 /* SafeDataEntry-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A7973F54F2098CDBE20D63E59A8B8B1 /* SafeDataEntry-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 839AF19A4738F7DB4AA094B33A516E2C /* SafeDataEntry-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BB12623BED6BDE157B6F32EF6D9F98F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A974252303718C7662D12CFA58EBD1FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B8B5A2998A9D31777D4DBF48B4C95795 /* SafeDataEntry-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABED80D1BB879A0C157DABD15272C1FE /* SafeDataEntry-iOS9.3-dummy.m */; };
 		C7CFA2DA56A5E36497366A11D56318D2 /* Pods-SafeDataEntry_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20708E7843EF4EF84ECED92EEC428EAF /* Pods-SafeDataEntry_Tests-dummy.m */; };
-		E678D036841C0B59A0B6896FD728FCDF /* SafeDataEntry-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */; };
+		E1689EE92030959B00B26EE2 /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EE72030957400B26EE2 /* ValidatingTextField.swift */; };
+		E1689EEA2030959C00B26EE2 /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1689EE72030957400B26EE2 /* ValidatingTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,59 +55,61 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019B1806C18503CCE0E6D212896A598E /* SafeDataEntry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SafeDataEntry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1786C4CC1E341DB73DEDAAD913180013 /* Pods-SafeDataEntry_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-resources.sh"; sourceTree = "<group>"; };
 		1CFAB07C54307C0F8FAFB9887FCE0440 /* Pods-SafeDataEntry_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1E883C3017DD95AB056A22EF677C647D /* SafeDataEntry-iOS11.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "SafeDataEntry-iOS11.2.modulemap"; sourceTree = "<group>"; };
+		2056474BBE67E555A230BE10B7F18064 /* SafeDataEntry-iOS11.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-prefix.pch"; sourceTree = "<group>"; };
 		20708E7843EF4EF84ECED92EEC428EAF /* Pods-SafeDataEntry_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Tests-dummy.m"; sourceTree = "<group>"; };
 		2860F3EC460FB02DF673466533E6D1D0 /* Pods-SafeDataEntry_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2AF7B5A0C3169450BB32CA41AC8016C2 /* Pods-SafeDataEntry_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_Example-umbrella.h"; sourceTree = "<group>"; };
-		39EB74FF29D9510A86F7CBEEDBB98F08 /* Pods-SafeDataEntry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Example.modulemap"; sourceTree = "<group>"; };
+		303B7CA9BE6352DFF706F1EA38F5F09A /* SafeDataEntry-iOS11.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SafeDataEntry-iOS11.2.xcconfig"; sourceTree = "<group>"; };
+		39EB74FF29D9510A86F7CBEEDBB98F08 /* Pods-SafeDataEntry_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SafeDataEntry_Example.modulemap"; sourceTree = "<group>"; };
 		3BD759DDB87048E474D4CB7532F70C37 /* Pods-SafeDataEntry_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3DC8197F1BD4348288173A0B7963A07B /* Pods_SafeDataEntry_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_ExampleUITests.framework; path = "Pods-SafeDataEntry_ExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4791A346CBE803AE4F7E5543429190B5 /* Pods_SafeDataEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Tests.framework; path = "Pods-SafeDataEntry_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-umbrella.h"; sourceTree = "<group>"; };
-		4A7B989D0F4CFC54AEEBA6694A18A447 /* SafeDataEntry.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SafeDataEntry.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericEntryKeypad.swift; path = SafeDataEntry/Classes/NumericEntryKeypad.swift; sourceTree = "<group>"; };
+		3DC8197F1BD4348288173A0B7963A07B /* Pods_SafeDataEntry_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4791A346CBE803AE4F7E5543429190B5 /* Pods_SafeDataEntry_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D34E8EA539FCC9D778EF01F012951C /* Pods-SafeDataEntry_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		58F632512E0651FE3463C035B03A9B06 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63B731AE7E06E6F9F9B8D4B22225470F /* Pods-SafeDataEntry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_Tests.modulemap"; sourceTree = "<group>"; };
+		5A384F36DB0BF0A1965D42F1F5B1438A /* SafeDataEntry-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "SafeDataEntry-iOS9.3.modulemap"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		63B731AE7E06E6F9F9B8D4B22225470F /* Pods-SafeDataEntry_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SafeDataEntry_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A70E5F3EB63BBBD627222EB7EDE0631 /* Pods-SafeDataEntry_ExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_ExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SafeDataEntry-iOS9.3-dummy.m"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-dummy.m"; sourceTree = "<group>"; };
-		76137CD4A4A1C1BC8CBC66E1D1D5C379 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SafeDataEntry-iOS9.3/Info.plist"; sourceTree = "<group>"; };
-		778CE349A81C782BFCCDE14E8F8F978D /* SafeDataEntry-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "SafeDataEntry-iOS9.3.modulemap"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		6C6A4EEA80719A383A6685FC2A3C990B /* SafeDataEntry-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-prefix.pch"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
 		790321A431EA6C0F677A838F32A4FD30 /* Pods-SafeDataEntry_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B2DC2DBC62086CDC416BDEDB626003B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SafeDataEntry-iOS11.2.xcconfig"; sourceTree = "<group>"; };
+		7D53EFFB741B50504163199EE24F2547 /* SafeDataEntry-iOS11.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "SafeDataEntry-iOS11.2.modulemap"; sourceTree = "<group>"; };
+		839AF19A4738F7DB4AA094B33A516E2C /* SafeDataEntry-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-umbrella.h"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
+		875D9A24F02CB3F88549A7009952ED0E /* SafeDataEntry-iOS11.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-umbrella.h"; sourceTree = "<group>"; };
 		8D02802C6419D1C97AFE1E880DDDD3FE /* Pods-SafeDataEntry_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D703117EC8D00232A87148F851061ED /* Pods_SafeDataEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SafeDataEntry_Example.framework; path = "Pods-SafeDataEntry_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D703117EC8D00232A87148F851061ED /* Pods_SafeDataEntry_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeDataEntry_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA3B2F1B268C640EA2502F72283544A /* Pods-SafeDataEntry_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941823E87A083B41A2D8AAD27A550D3A /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_ExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9B2C3965EDD98E582B9F6B91960F06C3 /* Pods-SafeDataEntry_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafeDataEntry_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D1D24FA091581DFFD164C1B941CE7A6 /* SafeDataEntry-iOS11.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafeDataEntry-iOS11.2-prefix.pch"; sourceTree = "<group>"; };
+		9B3EB4949FF824E5D5AB2E93F862E570 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9DC0D8788FB8E7FEDD3BF68BBA0AEBC1 /* Pods-SafeDataEntry_ExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_ExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
 		9EB45396AA77098C69DBA1D1296C906B /* Pods-SafeDataEntry_ExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafeDataEntry_ExampleUITests-umbrella.h"; sourceTree = "<group>"; };
 		9EE617DF28E1F139D77B48992F0E55D4 /* Pods-SafeDataEntry_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-umbrella.h"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
-		A2B25C0948B9469A1EEE0868CA335436 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A56AE0EC6E6415F52F82913D17F74670 /* AutoCorrectingTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCorrectingTextField.swift; path = SafeDataEntry/Classes/AutoCorrectingTextField.swift; sourceTree = "<group>"; };
 		AA7AFC003970B375908EF25D653001BE /* Pods-SafeDataEntry_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SafeDataEntry-iOS11.2-dummy.m"; sourceTree = "<group>"; };
-		B63EB5BBF26DE678B977770A1A26BD83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ABED80D1BB879A0C157DABD15272C1FE /* SafeDataEntry-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SafeDataEntry-iOS9.3-dummy.m"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-dummy.m"; sourceTree = "<group>"; };
+		B1A35B645D07C9E9EB566032D33AE164 /* NumericEntryKeypad.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumericEntryKeypad.swift; path = SafeDataEntry/Classes/NumericEntryKeypad.swift; sourceTree = "<group>"; };
+		B8D6C7E1F69E4AD2669DD06670F68FEA /* SafeDataEntry-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SafeDataEntry-iOS9.3.xcconfig"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.xcconfig"; sourceTree = "<group>"; };
 		BCC484CDB602332C758869180E30D3C3 /* Pods-SafeDataEntry_ExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_ExampleUITests-resources.sh"; sourceTree = "<group>"; };
 		BEA4E1ED03EB88FA27E9D094953A3D3C /* Pods-SafeDataEntry_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C728B2A82D8E4C8FFB2FDF351109A8E7 /* Pods-SafeDataEntry_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafeDataEntry_Example-dummy.m"; sourceTree = "<group>"; };
 		C921BC9CF486F2BC5AD3AF6E76ED4D79 /* Pods-SafeDataEntry_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafeDataEntry_Example-resources.sh"; sourceTree = "<group>"; };
-		CA64B0BDE9B9496299910C09CBED80FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3C77D90C0201213125CE639BA76ADB6 /* Pods-SafeDataEntry_ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SafeDataEntry_ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		D3C77D90C0201213125CE639BA76ADB6 /* Pods-SafeDataEntry_ExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SafeDataEntry_ExampleUITests.modulemap"; sourceTree = "<group>"; };
+		DC0235D3CF9ABDD361BC8E7376018736 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E1689EE72030957400B26EE2 /* ValidatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ValidatingTextField.swift; path = SafeDataEntry/Classes/ValidatingTextField.swift; sourceTree = "<group>"; };
 		E6E8774284D02F502BE11D45AAC03835 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECF6673EC5B6D20C8C1CD3A116BF99C8 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SafeDataEntry.framework; path = "SafeDataEntry-iOS11.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFA0F932C4BBF91FA974A2D7A2439339 /* SafeDataEntry-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SafeDataEntry-iOS9.3-prefix.pch"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
+		EAC5FDAEF5B8083865C9AAFB259D3161 /* SafeDataEntry-iOS11.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SafeDataEntry-iOS11.2-dummy.m"; sourceTree = "<group>"; };
+		ECD7B8C30CC263016FA939BD38ED930D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../SafeDataEntry-iOS9.3/Info.plist"; sourceTree = "<group>"; };
+		ECF6673EC5B6D20C8C1CD3A116BF99C8 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafeDataEntry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBDD1B0A45D4CBB9271C95A399F3A30 /* Pods-SafeDataEntry_ExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafeDataEntry_ExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFEEAC042511D859EA0F8B3206193788 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SafeDataEntry.framework; path = "SafeDataEntry-iOS9.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEEAC042511D859EA0F8B3206193788 /* SafeDataEntry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafeDataEntry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7DE5B0DC6AB8891002CC2E1CB60253 /* Pods-SafeDataEntry_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SafeDataEntry-iOS9.3.xcconfig"; path = "../SafeDataEntry-iOS9.3/SafeDataEntry-iOS9.3.xcconfig"; sourceTree = "<group>"; };
 		FEB53E47456C3B17DE0BA43E61F662E1 /* Pods-SafeDataEntry_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafeDataEntry_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEFB87637E2218588F075064F54B7A0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,24 +156,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		252BC062C0C829B1F5489F245C7C6B71 /* Support Files */ = {
+		030415591FB1BC33985FF8B8BC38F3DC /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CA64B0BDE9B9496299910C09CBED80FD /* Info.plist */,
-				76137CD4A4A1C1BC8CBC66E1D1D5C379 /* Info.plist */,
-				1E883C3017DD95AB056A22EF677C647D /* SafeDataEntry-iOS11.2.modulemap */,
-				8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */,
-				AFB814FD62F9264C6B5C1B10B34D002D /* SafeDataEntry-iOS11.2-dummy.m */,
-				9D1D24FA091581DFFD164C1B941CE7A6 /* SafeDataEntry-iOS11.2-prefix.pch */,
-				4898BCEA8319099462B0FB6CFA65968E /* SafeDataEntry-iOS11.2-umbrella.h */,
-				778CE349A81C782BFCCDE14E8F8F978D /* SafeDataEntry-iOS9.3.modulemap */,
-				FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */,
-				71A18BF132B6EE99282F0E983D0DBCAA /* SafeDataEntry-iOS9.3-dummy.m */,
-				EFA0F932C4BBF91FA974A2D7A2439339 /* SafeDataEntry-iOS9.3-prefix.pch */,
-				A0ACA7C99E61208F6B298FCC3D6D3DEB /* SafeDataEntry-iOS9.3-umbrella.h */,
+				DC0235D3CF9ABDD361BC8E7376018736 /* LICENSE */,
+				9B3EB4949FF824E5D5AB2E93F862E570 /* README.md */,
+				019B1806C18503CCE0E6D212896A598E /* SafeDataEntry.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SafeDataEntry-iOS11.2";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		654645440F03D0A8FF867653A96311B5 /* Targets Support Files */ = {
@@ -214,22 +210,52 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FBE648DE5D6806617FC6A2B21BA8D8B8 /* Development Pods */,
+				B36D4F16216058699529A71A8D7BCF1D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6F5E419B6DFCEE30D5D8B2312BA39DF4 /* Products */,
 				654645440F03D0A8FF867653A96311B5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86F07836689EC8526AB0259B8234B270 /* SafeDataEntry */ = {
+		9C11344121F41EDE0AC5A0AE7D5DD72C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				51617EDEEC463F53C8E1617BBCE48324 /* NumericEntryKeypad.swift */,
-				DCD075C560B1BA040702273FFD5303B2 /* Pod */,
-				252BC062C0C829B1F5489F245C7C6B71 /* Support Files */,
+				FEFB87637E2218588F075064F54B7A0C /* Info.plist */,
+				ECD7B8C30CC263016FA939BD38ED930D /* Info.plist */,
+				7D53EFFB741B50504163199EE24F2547 /* SafeDataEntry-iOS11.2.modulemap */,
+				303B7CA9BE6352DFF706F1EA38F5F09A /* SafeDataEntry-iOS11.2.xcconfig */,
+				EAC5FDAEF5B8083865C9AAFB259D3161 /* SafeDataEntry-iOS11.2-dummy.m */,
+				2056474BBE67E555A230BE10B7F18064 /* SafeDataEntry-iOS11.2-prefix.pch */,
+				875D9A24F02CB3F88549A7009952ED0E /* SafeDataEntry-iOS11.2-umbrella.h */,
+				5A384F36DB0BF0A1965D42F1F5B1438A /* SafeDataEntry-iOS9.3.modulemap */,
+				B8D6C7E1F69E4AD2669DD06670F68FEA /* SafeDataEntry-iOS9.3.xcconfig */,
+				ABED80D1BB879A0C157DABD15272C1FE /* SafeDataEntry-iOS9.3-dummy.m */,
+				6C6A4EEA80719A383A6685FC2A3C990B /* SafeDataEntry-iOS9.3-prefix.pch */,
+				839AF19A4738F7DB4AA094B33A516E2C /* SafeDataEntry-iOS9.3-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SafeDataEntry-iOS11.2";
+			sourceTree = "<group>";
+		};
+		B1A1A1D0EAEE85357FECD4F72DED2F65 /* SafeDataEntry */ = {
+			isa = PBXGroup;
+			children = (
+				A56AE0EC6E6415F52F82913D17F74670 /* AutoCorrectingTextField.swift */,
+				B1A35B645D07C9E9EB566032D33AE164 /* NumericEntryKeypad.swift */,
+				E1689EE72030957400B26EE2 /* ValidatingTextField.swift */,
+				030415591FB1BC33985FF8B8BC38F3DC /* Pod */,
+				9C11344121F41EDE0AC5A0AE7D5DD72C /* Support Files */,
 			);
 			name = SafeDataEntry;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B36D4F16216058699529A71A8D7BCF1D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1A1A1D0EAEE85357FECD4F72DED2F65 /* SafeDataEntry */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -266,16 +292,6 @@
 			path = "Target Support Files/Pods-SafeDataEntry_Example";
 			sourceTree = "<group>";
 		};
-		DCD075C560B1BA040702273FFD5303B2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B63EB5BBF26DE678B977770A1A26BD83 /* LICENSE */,
-				A2B25C0948B9469A1EEE0868CA335436 /* README.md */,
-				4A7B989D0F4CFC54AEEBA6694A18A447 /* SafeDataEntry.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E949AC42660574B0554779C2999F34B7 /* Pods-SafeDataEntry_ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,14 +308,6 @@
 			);
 			name = "Pods-SafeDataEntry_ExampleUITests";
 			path = "Target Support Files/Pods-SafeDataEntry_ExampleUITests";
-			sourceTree = "<group>";
-		};
-		FBE648DE5D6806617FC6A2B21BA8D8B8 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				86F07836689EC8526AB0259B8234B270 /* SafeDataEntry */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,7 +378,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7176CCD2776E50E0F06F2CC22C168A4D /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS9.3" */;
 			buildPhases = (
-				E42D7220251C09F44F5A85050A0F6FA6 /* Sources */,
+				01D65E606049BC44D2DB22C5B724182A /* Sources */,
 				D997A2D74FBDEA57537501819AC8B503 /* Frameworks */,
 				0774B7E36B07F7384E63464D3CC448F7 /* Headers */,
 			);
@@ -405,7 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DD782D5A70614C2ACA3DEB013D96BC /* Build configuration list for PBXNativeTarget "SafeDataEntry-iOS11.2" */;
 			buildPhases = (
-				A769DDDBCA2AD839B6A9682F523AADC7 /* Sources */,
+				FA2134EB136C7E7CB1F82182BE52729A /* Sources */,
 				4B4EDC2795BE0DECBE20FB22E1535397 /* Frameworks */,
 				21AA97E184378357D8EAFB902163147D /* Headers */,
 			);
@@ -444,6 +452,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					355730BEE5CEE84BFEE36929BD6E530D = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -467,6 +480,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01D65E606049BC44D2DB22C5B724182A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1689EEA2030959C00B26EE2 /* ValidatingTextField.swift in Sources */,
+				35AF8C8508B9130047EC83F4FDDA75F3 /* AutoCorrectingTextField.swift in Sources */,
+				6DA8D87CA738017A78117C0D69F323DE /* NumericEntryKeypad.swift in Sources */,
+				B8B5A2998A9D31777D4DBF48B4C95795 /* SafeDataEntry-iOS9.3-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3AE1892A0A46900260C5563E7624C6CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,21 +515,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A769DDDBCA2AD839B6A9682F523AADC7 /* Sources */ = {
+		FA2134EB136C7E7CB1F82182BE52729A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				392ADA61AE72DCEFCF472F16B73D7192 /* NumericEntryKeypad.swift in Sources */,
-				1D8BC7BDF73F696D5E90A6EB14312B05 /* SafeDataEntry-iOS11.2-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E42D7220251C09F44F5A85050A0F6FA6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CFE7F346BA3703873196EB0AA6DD0A3 /* NumericEntryKeypad.swift in Sources */,
-				E678D036841C0B59A0B6896FD728FCDF /* SafeDataEntry-iOS9.3-dummy.m in Sources */,
+				E1689EE92030959B00B26EE2 /* ValidatingTextField.swift in Sources */,
+				009CAE205FCD8C73A5611E72150B11FB /* AutoCorrectingTextField.swift in Sources */,
+				852E903753F424B93CB5F323D40473D4 /* NumericEntryKeypad.swift in Sources */,
+				086C9200B10C780DE263100061521119 /* SafeDataEntry-iOS11.2-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +552,7 @@
 /* Begin XCBuildConfiguration section */
 		1D560AC4B51421E3F003724A96751ACA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */;
+			baseConfigurationReference = B8D6C7E1F69E4AD2669DD06670F68FEA /* SafeDataEntry-iOS9.3.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,7 +711,7 @@
 		};
 		6C3E943B7C5076686B495CBA99AEF056 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */;
+			baseConfigurationReference = 303B7CA9BE6352DFF706F1EA38F5F09A /* SafeDataEntry-iOS11.2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -783,6 +800,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BEA4E1ED03EB88FA27E9D094953A3D3C /* Pods-SafeDataEntry_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -807,6 +825,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -815,7 +834,7 @@
 		};
 		B8CA0BAA8931303792DAA5A2644B22C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8EE5DB5EC5DDD62993AA1D2AB6EDD1 /* SafeDataEntry-iOS9.3.xcconfig */;
+			baseConfigurationReference = B8D6C7E1F69E4AD2669DD06670F68FEA /* SafeDataEntry-iOS9.3.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -849,6 +868,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FD7DE5B0DC6AB8891002CC2E1CB60253 /* Pods-SafeDataEntry_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -872,6 +892,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -915,7 +936,7 @@
 		};
 		D3B2E4C07B7D79A7CD8903DDDC124F00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B209A9D5422E02F6CB49F1F808D7E03 /* SafeDataEntry-iOS11.2.xcconfig */;
+			baseConfigurationReference = 303B7CA9BE6352DFF706F1EA38F5F09A /* SafeDataEntry-iOS11.2.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
